@@ -46,7 +46,7 @@ p {color:#f00;}
 将每一个选择器匹配的元素集合并。用法: `selector1,selector2,...,selectorN`。
 
 
-## 选择器的读取顺序
+## <a name="match-rule">选择器的读取顺序</a>
 CSS选择器的读取顺序是从右向左。    
 原因是从右向左的规则要比从左向右的高效。    
 如果正向解析，例如「div div p em」，我们首先就要检查当前元素到 html 的整条路径，找到最上层的 div，再往下找，如果遇到不匹配就必须回到最上层那个 div，往下再去匹配选择器中的第一个 div，回溯若干次才能确定匹配与否，效率很低。
@@ -57,4 +57,4 @@ CSS选择器的读取顺序是从右向左。
 
 ## 参考
 * http://www.w3schools.com/css/css_selectors.asp
-* [《图解CSS3：核心技术与案例实战》 ](http://www.w3cplus.com/book-comment.html)
+* [《图解CSS3：核心技术与案例实战》](http://www.w3cplus.com/book-comment.html)

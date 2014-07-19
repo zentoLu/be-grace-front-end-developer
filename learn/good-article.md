@@ -12,3 +12,4 @@
 	* http://aerotwist.com/blog/pixels-are-expensive/
 * [优化jquery选择器](http://learn.jquery.com/performance/optimize-selectors/)
 * [CSS is a Mess](http://vimeo.com/99877232)
+* [How browsers work](http://taligarsiel.com/Projects/howbrowserswork1.htm)

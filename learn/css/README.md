@@ -13,7 +13,7 @@
 * 布局 http://zh.learnlayout.com/
     * 左右两栏
     * 左右大小可变，中间大小固定
-* 最佳实践
+* [最佳实践](optimize.md)
 * css框架
 * css3
     * 动画过渡
@@ -26,7 +26,7 @@
 * 超越css
 * 禅意花园
 * CSS那些事儿（林小志）
-* 图解css3
+* [《图解CSS3：核心技术与案例实战》](http://www.w3cplus.com/book-comment.html)
 
 
 # 其他
