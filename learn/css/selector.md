@@ -5,7 +5,7 @@
 * 选择器
 	* [基本选择器](#basic)
 	* [层次选择器](#)
-	* [伪类选择器](#)
+	* [伪类选择器](#pseudo-class)
 	* [伪元素](#)
 	* [属性选择器](#)
 * [选择器的读取顺序](#match-rule)
@@ -54,6 +54,42 @@ CSS选择器的读取顺序是从右向左。
 逆向匹配则不同，如果当前的 DOM 元素是 div，而不是 selector 最后的 em，那只要一步就能排除。只有在匹配时，才会不断向上找父节点进行验证。
 
 更详细的寒冬的[解释](http://v.youku.com/v_show/id_XMjMzMzU2NDc2.html)
+
+## <a name="#pseudo-class">伪类选择器</a>
+伪类选择器分为动态伪类,UI伪类和:nth选择器
+### 动态伪类
+因为这些伪类并不存在于HTML中,而只有当用户和网站交互的时候才能体现出来，动态伪类包含两种，第一种是我们在链接中常看到的锚点伪类，如":link",":visited";另外一种被称作用户行为伪类，如“:hover”,":active"和":focus"。
+
+#### 锚点伪类
+* :link 链接没有被访问
+* :visited 链接被访问后
+
+### 用户行为伪类
+* :hover 用户把鼠标移动到元素上面时的效果
+* :active 用户点击元素那一下的效果（正发生在点的那一下，松开鼠标左键此动作也就完成了）
+* :focus 元素获得焦点。通常是表单元素。
+
+锚点元素可以设置:hover，:active，:link和:visited四个伪类，其写的前后顺序必须是Link--visited--hover--active，即爱恨原则LoVe/HAte。否则，有些伪类的效果会永远不能生效。
+
+## UI元素状态伪类
+我们把":enabled",":disabled",":checked"伪类称为UI元素状态伪类，这些主要是针对于HTML中的Form元素操作，最常见的比如我们"type="text"有enable和disabled两种状态，前者为可写状态后者为不可状态；另外"type="radio"和"type="checkbox""有"checked"和"unchecked"两种状态
+
+## :nth选择器
+CSS3选择器最新部分，有人也称这种选择器为CSS3结构类
+
+* :fist-child选择某个元素的第一个子元素；
+* :last-child选择某个元素的最后一个子元素；
+* :nth-child()选择某个元素的一个或多个特定的子元素；
+* :nth-last-child()选择某个元素的一个或多个特定的子元素，从这个元素的最后一个子元素开始算；
+* :nth-of-type()选择指定的元素；
+* :nth-last-of-type()选择指定的元素，从元素的最后一个开始计算；
+* :first-of-type选择一个上级元素下的第一个同类子元素；
+* :last-of-type选择一个上级元素的最后一个同类子元素；
+* :only-child选择的元素是它的父元素的唯一一个了元素；
+* :only-of-type选择一个元素是它的上级元素的唯一一个相同类型的子元素；
+* :empty选择的元素里面没有任何内容
+
+
 
 ## 参考
 * http://www.w3schools.com/css/css_selectors.asp
