@@ -45,16 +45,6 @@ p {color:#f00;}
 ### 群组选择器
 将每一个选择器匹配的元素集合并。用法: `selector1,selector2,...,selectorN`。
 
-
-## <a name="match-rule">选择器的读取顺序</a>
-CSS选择器的读取顺序是从右向左。    
-原因是从右向左的规则要比从左向右的高效。    
-如果正向解析，例如「div div p em」，我们首先就要检查当前元素到 html 的整条路径，找到最上层的 div，再往下找，如果遇到不匹配就必须回到最上层那个 div，往下再去匹配选择器中的第一个 div，回溯若干次才能确定匹配与否，效率很低。
-
-逆向匹配则不同，如果当前的 DOM 元素是 div，而不是 selector 最后的 em，那只要一步就能排除。只有在匹配时，才会不断向上找父节点进行验证。
-
-更详细的寒冬的[解释](http://v.youku.com/v_show/id_XMjMzMzU2NDc2.html)
-
 ## <a name="#pseudo-class">伪类选择器</a>
 伪类选择器分为动态伪类,UI伪类和:nth选择器
 ### 动态伪类
@@ -89,7 +79,14 @@ CSS3选择器最新部分，有人也称这种选择器为CSS3结构类
 * :only-of-type选择一个元素是它的上级元素的唯一一个相同类型的子元素；
 * :empty选择的元素里面没有任何内容
 
+## <a name="match-rule">选择器的读取顺序</a>
+CSS选择器的读取顺序是从右向左。    
+原因是从右向左的规则要比从左向右的高效。    
+如果正向解析，例如「div div p em」，我们首先就要检查当前元素到 html 的整条路径，找到最上层的 div，再往下找，如果遇到不匹配就必须回到最上层那个 div，往下再去匹配选择器中的第一个 div，回溯若干次才能确定匹配与否，效率很低。
 
+逆向匹配则不同，如果当前的 DOM 元素是 div，而不是 selector 最后的 em，那只要一步就能排除。只有在匹配时，才会不断向上找父节点进行验证。
+
+更详细的寒冬的[解释](http://v.youku.com/v_show/id_XMjMzMzU2NDc2.html)
 
 ## 参考
 * http://www.w3schools.com/css/css_selectors.asp
