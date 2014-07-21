@@ -45,7 +45,7 @@ p {color:#f00;}
 ### 群组选择器
 将每一个选择器匹配的元素集合并。用法: `selector1,selector2,...,selectorN`。
 
-## <a name="#pseudo-class">伪类选择器</a>
+## <a name="pseudo-class">伪类选择器</a>
 伪类选择器分为动态伪类,UI伪类和:nth选择器
 ### 动态伪类
 因为这些伪类并不存在于HTML中,而只有当用户和网站交互的时候才能体现出来，动态伪类包含两种，第一种是我们在链接中常看到的锚点伪类，如":link",":visited";另外一种被称作用户行为伪类，如“:hover”,":active"和":focus"。
