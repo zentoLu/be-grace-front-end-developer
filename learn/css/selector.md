@@ -8,6 +8,7 @@
 	* [伪类选择器](#pseudo-class)
 	* [伪元素](#)
 	* [属性选择器](#)
+* [选择器权重](#selector-weight)
 * [选择器的读取顺序](#match-rule)
 
 ## <a name='basic'>基本选择器</a>
@@ -78,6 +79,8 @@ CSS3选择器最新部分，有人也称这种选择器为CSS3结构类
 * :only-child选择的元素是它的父元素的唯一一个了元素；
 * :only-of-type选择一个元素是它的上级元素的唯一一个相同类型的子元素；
 * :empty选择的元素里面没有任何内容
+
+## <a name="selector-weight">选择器权重</a>
 
 ## <a name="match-rule">选择器的读取顺序</a>
 CSS选择器的读取顺序是从右向左。    

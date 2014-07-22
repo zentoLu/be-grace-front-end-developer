@@ -3,23 +3,15 @@
 * [盒模型](box-model.md)
 * 样式
     * 常见样式
-    * 继承
-    * 优先级
-* 兼容性
+    * 样式继承
+* 浏览器兼容性
     * [浏览器hack](css-hack.md)
-    * 常见浏览器bug
-        * fuck ie 6
-            * 双边距
-* 布局 http://zh.learnlayout.com/
-    * 左右两栏
-    * 左右大小可变，中间大小固定
-* [最佳实践](optimize.md)
-* css框架
-* css3
-    * 动画过渡
-    * 背景渐变
-    * 阴影
-    * ...
+    * [常见浏览器bug及处理](css-bugs.md)
+* [布局](layout.md)
+* [css框架](framework/css-framework.md)
+* 最佳实践
+    * [提高CSS性能](optimize.md)
+    * [组织CSS代码](organize.md)
 
 ## 书籍推荐
 * css权威指南
