@@ -15,6 +15,7 @@
  * uri操作 [uri.js](https://github.com/medialize/URI.js) 
  * [cookie](https://github.com/ScottHamper/Cookies)
  * [bowser](https://github.com/ded/bowser) 浏览器探测
+ * [BigDecimal.js](https://github.com/dtrebbien/BigDecimal.js) 提高精度的数字操作
 
 ****
 ##以下均依赖jquery
