@@ -63,6 +63,7 @@
 * 资源
     * [findIcons](http://findicons.com/ ) : icon搜索引擎
     * [百度cdn公共库](http://developer.baidu.com/wiki/index.php?title=docs/cplat/libs/ ) :常用的JS库存放在的CDN节点
+    * [开放静态文件 CDN](http://staticfile.org/) 更多静态文件资源。由七云提供。
     * [subtlepatterns](http://subtlepatterns.com/): 网站背景图片
     * [生成loading图标](http://preloaders.net/)
     * [字体（视巨网）](http://www.ssjee.com/forum.php?mod=forumdisplay&fid=55&filter=typeid&typeid=12&sortid=6)
