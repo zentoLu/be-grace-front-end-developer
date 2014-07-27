@@ -7,7 +7,7 @@
         * title
         * charset : <meta charset="UTF-8">
     * body
-* [标签](html-tag.md)
+* [标签和属性](html-tag.md)
 * [HTML 字符实体](./html-entities.md)
 * [DOCTYPE和渲染模式](./quirks-mode-and-standards-mode.md)
 * 元数据(Metadata)
