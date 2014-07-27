@@ -1,4 +1,5 @@
-* html是神马(查看what-is-html.md)
+# html
+* [html是神马](what-is-html.md)
 * 网页结构
     * html
     * head
@@ -6,18 +7,9 @@
         * title
         * charset : <meta charset="UTF-8">
     * body
-* 标签(查看html-tag.md)
-    * 分类
-        * 行内
-        * 块级
-    * 语义
-    * 标签属性
-    * 嵌套规则
-    * 注释
-        * 普通注释 <!-- 注释内容 -->
-        * ie 条件编译
+* [标签](html-tag.md)
 * [HTML 字符实体](./html-entities.md)
-* [渲染模式](./quirks-mode-and-standards-mode.md)
+* [DOCTYPE和渲染模式](./quirks-mode-and-standards-mode.md)
 * 元数据(Metadata)
 * 网页无障碍
 

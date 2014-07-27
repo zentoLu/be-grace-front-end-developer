@@ -1,4 +1,8 @@
-## 浏览器渲染模式
+# DOCTYPE和浏览器渲染模式
+## DOCTYPE
+DOCTYPE是用来指定，浏览器该用何种渲染模式。
+
+## 渲染模式
 > 浏览器根据渲染模式来决定如何渲染页面。出现渲染模式的目的的为了兼容一些老旧（不符合w3c标准）的的页面。
 
 > 在浏览器中有三种模式: 怪癖模式（quirks mode），准标准模式（almost standards mode）和标准模式（standards mode）。
@@ -31,6 +35,7 @@ IE6、7和8不支持application/xhtml+xml，Mac IE5也如此。
 怪癖模式带来的影响主要是css布局。如在 怪癖模式和标准模式之间一个突出的不同是对 CSS IE盒模型缺陷的处理。在某些浏览器(如IE)的怪癖模式下，盒模型（box model）变成[IE5.5的盒模型](http://css.kentucka.com/?box_model)（IE5.5的盒模型的width包括margin和padding），另一个值得一提的不同点是某些行内 (inline) 元素的垂直对齐；很多早期的浏览器对齐图片至包含它们的盒子的下边框，虽然 CSS 的规范要求它们被对齐至盒内文本的基线。标准模式下，基于 Gecko 的浏览器将会对齐至基线，而在 怪癖模式下它们会对齐至底部。以及表格不继承样式等。
 
 ## 参考
+* http://www.w3schools.com/tags/tag_doctype.asp
 * [mdn:Quirks Mode and Standards Mode](https://developer.mozilla.org/en-US/docs/Quirks_Mode_and_Standards_Mode)
 * [doctype](https://hsivonen.fi/doctype/)
 * [whatwg怪癖模式的标准](http://quirks.spec.whatwg.org/)
