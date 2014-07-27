@@ -1,5 +1,5 @@
-# html
-* [html是神马](what-is-html.md)
+# HTML
+* [HTML是神马](what-is-html.md)
 * 网页结构
     * html
     * head
@@ -7,8 +7,8 @@
         * title
         * charset : <meta charset="UTF-8">
     * body
-* [标签和属性](html-tag.md)
-* [HTML 字符实体](./html-entities.md)
+* [标签和属性](html-tag-and-attr.md)
+* [HTML字符实体](./html-entities.md)
 * [DOCTYPE和渲染模式](./quirks-mode-and-standards-mode.md)
 * 元数据(Metadata)
 * 网页无障碍
