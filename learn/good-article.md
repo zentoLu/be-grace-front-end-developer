@@ -13,3 +13,4 @@
 * [优化jquery选择器](http://learn.jquery.com/performance/optimize-selectors/)
 * [CSS is a Mess](http://vimeo.com/99877232)
 * [How browsers work](http://taligarsiel.com/Projects/howbrowserswork1.htm)
+* [7 Patterns to Refactor JavaScript Applications](http://journal.crushlovely.com/post/88286828068/7-patterns-to-refactor-javascript-applications-value)
