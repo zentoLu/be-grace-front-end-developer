@@ -28,15 +28,8 @@
     * 淡入淡出
     * 展开收拢
     * 旋转，翻转，视觉差等更牛逼的 
-* ajax
-    * config
-    * method (get,post,put,delete)
-    * json/jsonp
-    * promise
-        * done
-        * fail
-        * always
-* [工具方法](./utilities.md)
+* [ajax](ajax.md)
+* [工具方法](utilities.md)
     * 类型探测 isArray,isFunction...
     * 字符串 trim
     * 合并 extend

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>ajax</title>
+    <script src="../../../vendor/jquery.min.js"></script>
+</head>
+
+<body>
+    <script>
+    $(document).ready(function() {
+        // 基本用法
+        (function() {
+            $.ajax('ajaxData/user.json', {
+                success: function(data) {
+                    console.log('----- basic usage -----');
+                }
+            }).done(function(data) {
+                console.log(data);
+            });
+        })();
+
+        // 各种ajax配置
+        (function() {
+            $.ajax({
+                url: 'ajaxData/user.json',
+                'headers': {// 设置头
+                    'content-type': 'application/json'
+                },
+                success: function(data, textStatus, jqXHR) {
+                    console.log('----- ajax config -----');
+                    console.log(textStatus, jqXHR.status, jqXHR.statusText); //success 200 OK
+                    console.log(jqXHR.getAllResponseHeaders());
+                    console.log(jqXHR.getResponseHeader('Content-Type'));
+                    console.log(jqXHR.readyState); // 4
+                }
+            })
+        })();
+
+    });
+    </script>
+</body>
+
+</html>
