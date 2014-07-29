@@ -14,3 +14,6 @@
 * [CSS is a Mess](http://vimeo.com/99877232)
 * [How browsers work](http://taligarsiel.com/Projects/howbrowserswork1.htm)
 * [7 Patterns to Refactor JavaScript Applications](http://journal.crushlovely.com/post/88286828068/7-patterns-to-refactor-javascript-applications-value)
+* [Cardkit & DOMO UI - 移动时代技术与设计的十字路口](http://www.infoq.com/cn/presentations/cardkit-domo-ui)
+* [黑哥 General Mass Threat](http://www.infoq.com/cn/presentations/general-mass-threat)
+* [GitHub's CSS](http://markdotto.com/2014/07/23/githubs-css/)
