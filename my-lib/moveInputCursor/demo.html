@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>输入框光标移动</title>
+</head>
+
+<body>
+	<input type="text" value="1234567" id="input">
+	<label for="">moveTo</label>
+	<input type="text" value="3" id="move-to-input">
+	<button id="move-btn">确定</button>
+	<button id="move-cursor-to-end-btn">光标移至输入框结尾</button>
+
+
+    <script src="http://cdn.staticfile.org/jquery/1.9.1/jquery.js"></script>
+    <script src="moveInputCursor.js"></script>
+    <script>
+    $(document).ready(function() {
+    	var $moveToInput = $('#move-to-input');
+    	var $input = $('#input');
+    	$('#move-btn').click(function(){
+    		moveCursor($input[0], $moveToInput.val(), $moveToInput.val());
+    	});
+    	$('#move-cursor-to-end-btn').click(function(){
+    		cursorMoveToEnd($input);
+    	});
+    });
+    </script>
+</body>
+
+</html>
