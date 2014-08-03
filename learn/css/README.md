@@ -1,9 +1,7 @@
 # CSS
 * [选择器](selector.md)
 * [盒模型](box-model.md)
-* 样式
-    * 常见样式
-    * 样式继承
+* [样式琐碎知识](style.md)
 * 浏览器兼容性
     * [浏览器hack](css-hack.md)
     * [常见浏览器bug及处理](css-bugs.md)
