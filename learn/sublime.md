@@ -87,6 +87,7 @@ https://sublime.wbond.net/browse/popular
 ### 便签页操作(浏览器的的大部分标签操作快捷键类似）
 * `Ctrl+W`: 关闭当前便签页
 * `Ctrl+Tab`: 下一个标签页
+* `Ctrl+Shift+T`: 打开上次关闭的标签页
 
 ### 书签操作(文件关闭后，文件上的书签会被删除)
 * `Ctrl+F2`: 创建/删除书签
