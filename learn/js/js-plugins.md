@@ -63,7 +63,8 @@
 
 * 美化表单元素
     * [uniform](http://uniformjs.com/) 提供对下拉框，单，复选框，按钮等表单元素的美化
-    * [select2](http://ivaynberg.github.io/select2/index.html) 多选下拉框  
+    * [select2](http://ivaynberg.github.io/select2/index.html) 多选下拉框
+    * [DropKick](http://robdel12.github.io/DropKick/) 下拉框，单，多选。外观比uniform好看
 * 滚动条
     * [perfect scrollbar](https://github.com/noraesae/perfect-scrollbar) 轻量级的滚动条
     * [iscroll](http://iscrolljs.com) high performance, small footprint, dependency free, multi-platform javascript scroller
@@ -98,6 +99,7 @@
 
 * 选取颜色
     * [Spectrum](http://bgrins.github.io/spectrum/?color=&color2=%233355cc&color3=%23000000#toc0) 
+* [please](http://www.checkman.io/please/) 按要求随机舒服的颜色
 * html5播放器
     * [jwplayer](http://www.jwplayer.com/) 被大量网站使用
     * [html5media](http://html5media.info/) 简单的h5player，轻量级
