@@ -47,15 +47,16 @@
 https://sublime.wbond.net/browse/popular
 
 ## <a name="snippets">snippets</a>
-### 我的sulime snippent
-https://github.com/iamjoel/sublime-snippets/
+* [我的sulime snippent]https://github.com/iamjoel/sublime-snippets/
+* [Super-Snippets](https://github.com/jakebresnehan/Sublime-Super-Snippets) 某前端工程师的snippets
+
 
 ### [Bootstrap 3 Snippets](https://github.com/JasonMortonNZ/bs3-sublime-plugin)
 快速生成bootstrap3的一些组件的Snippets
 
 ## <a name="shortcut">快捷键</a>
 * `Ctrl+Shift+P` 打开命令面板
-* `Ctrl+\`` 打开控制台命令面板
+* Ctrl+\` 打开控制台命令面板(\`在``中转义不鸟)
 
 ### 查找定位
 * `Ctrl+P` 打开查找文件面板。如果面板中的内容以`@`,`#`,`:`开头，则在当前文件中找
@@ -76,6 +77,9 @@ https://github.com/iamjoel/sublime-snippets/
 * `Ctrl+方向键：上/下`:将当前行上/下移
 * 未选择内容 `Ctrl+C`: 复制当前行
 * 未选择内容 `Ctrl+x`: 剪切当前行
+* `Ctrl+/`: 注释当前行
+* `Ctrl+Shift+/`: 当前位置插入注释
+* `Alt+.`：闭合标签
 
 ### 文件操作
 * `Ctrl+N`: 新建文件
@@ -91,6 +95,12 @@ https://github.com/iamjoel/sublime-snippets/
 
 ### 其他
 * `F12`: 将当前文件在默认打开工具中打开，如html文件会在默认浏览器中打开
+* `Ctrl+K+B`: 显示/隐藏左侧栏
+* `F11`：全屏
+* `Shift+F11`：全屏只编辑当前文件
+* `Alt+Shift+数字`：分几屏显示
+
+
 
 
 
