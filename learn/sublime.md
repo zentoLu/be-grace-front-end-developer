@@ -84,6 +84,11 @@ https://github.com/iamjoel/sublime-snippets/
 * `Ctrl+W`: 关闭当前便签页
 * `Ctrl+Tab`: 下一个标签页
 
+### 书签操作(文件关闭后，文件上的书签会被删除)
+* `Ctrl+F2`: 创建/删除书签
+* `F2`: 下一个书签
+* `Shift+F2`: 上一个书签
+
 ### 其他
 * `F12`: 将当前文件在默认打开工具中打开，如html文件会在默认浏览器中打开
 
