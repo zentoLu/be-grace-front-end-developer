@@ -17,3 +17,5 @@
 * [Cardkit & DOMO UI - 移动时代技术与设计的十字路口](http://www.infoq.com/cn/presentations/cardkit-domo-ui)
 * [黑哥 General Mass Threat](http://www.infoq.com/cn/presentations/general-mass-threat)
 * [GitHub's CSS](http://markdotto.com/2014/07/23/githubs-css/)
+* [Techniques for mobile and responsive cross-browser testing: An Envato case study](http://webuild.envato.com/blog/techniques-for-mobile-and-responsive-cross-browser-testing/)
+* [Responsive Web Made Easier with Chrome DevTools Device Mode](http://girliemac.com/blog/2014/07/28/devicemode/)
