@@ -80,6 +80,7 @@ https://sublime.wbond.net/browse/popular
 * `Ctrl+/`: 注释当前行
 * `Ctrl+Shift+/`: 当前位置插入注释
 * `Alt+.`：闭合标签
+* `Alt+Shift+W`：用html标签来包裹选中的内容
 
 ### 文件操作
 * `Ctrl+N`: 新建文件
