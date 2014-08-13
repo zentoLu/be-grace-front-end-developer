@@ -1,13 +1,13 @@
 /**
-* @file 验证方法参数是否符合要求，依赖lodash。
-* @author Joel <iamjoel007@gmail.com>
-* @version 0.0.1
-*/
+ * @file 验证方法参数是否符合要求，依赖lodash。
+ * @author Joel <iamjoel007@gmail.com>
+ * @version 0.0.1
+ */
 
-(function(win) {
+(function (win) {
     /**
-    * 支持的验证类型
-    */
+     * 支持的验证类型
+     */
     var validType = [
         'required',
         'object', 'obj',
@@ -30,12 +30,12 @@
         if (!_.isArray(validArr)) {
             validArr = [validArr];
         }
-        _.forEach(validArr, function(each, index) {
+        _.forEach(validArr, function (each, index) {
             if (each && each.valid !== undefined) {
                 if (!_.isArray(each.valid)) {
                     each.valid = [each.valid];
                 }
-                _.forEach(each.valid, function(eachValid) {
+                _.forEach(each.valid, function (eachValid) {
                     var validMsg = validEach(each.value, eachValid);
                     if (validMsg !== true) {
                         errMsgArr.push('index ' + index + ': ' + validMsg);
@@ -66,34 +66,34 @@
                 validMsg = 'unknown validType:' + type;
             }
             switch (type) {
-                case 'required':
-                    validMsg = value !== undefined ? true : ERROR_MSG_PREFIX + 'not undefined';
-                    break;
-                case 'object':
-                case 'obj':
-                    validMsg = _.isObject(value) ? true : ERROR_MSG_PREFIX + 'object';
-                    break;
-                case 'number':
-                case 'num':
-                    validMsg = _.isNumber(value) ? true : ERROR_MSG_PREFIX + 'number';
-                    break;
-                case 'int':
-                    validMsg = _.isNumber(value) && _.indexOf((value +''),'.') === -1 ? true : ERROR_MSG_PREFIX + 'number';
-                    break;
-                case 'bool':
-                    validMsg = _.isBoolean(value) ? true : ERROR_MSG_PREFIX + 'bool';
-                    break;
-                case 'string':
-                    validMsg = _.isString(value) ? true : ERROR_MSG_PREFIX + 'string';
-                    break;
-                case 'array':
-                case 'arr':
-                    validMsg = _.isArray(value) ? true : ERROR_MSG_PREFIX + 'array';
-                    break;
-                case 'function':
-                case 'fun':
-                    validMsg = _.isFunction(value) ? true : ERROR_MSG_PREFIX + 'function';
-                    break;
+            case 'required':
+                validMsg = value !== undefined ? true : ERROR_MSG_PREFIX + 'not undefined';
+                break;
+            case 'object':
+            case 'obj':
+                validMsg = _.isObject(value) ? true : ERROR_MSG_PREFIX + 'object';
+                break;
+            case 'number':
+            case 'num':
+                validMsg = _.isNumber(value) ? true : ERROR_MSG_PREFIX + 'number';
+                break;
+            case 'int':
+                validMsg = _.isNumber(value) && _.indexOf((value + ''), '.') === -1 ? true : ERROR_MSG_PREFIX + 'number';
+                break;
+            case 'bool':
+                validMsg = _.isBoolean(value) ? true : ERROR_MSG_PREFIX + 'bool';
+                break;
+            case 'string':
+                validMsg = _.isString(value) ? true : ERROR_MSG_PREFIX + 'string';
+                break;
+            case 'array':
+            case 'arr':
+                validMsg = _.isArray(value) ? true : ERROR_MSG_PREFIX + 'array';
+                break;
+            case 'function':
+            case 'fun':
+                validMsg = _.isFunction(value) ? true : ERROR_MSG_PREFIX + 'function';
+                break;
             }
         } else if (_.isFunction(type)) { // 自定义验证函数
             validMsg = type(value) ? true : 'custom valid fail';
