@@ -1,8 +1,8 @@
 # Learn
 ## 编程语言
-* [html](html/html-outline.md)
-* [css](css/css-outline.md)
-* [js](js/js-outline.md)
+* [html](html)
+* [css](css)
+* [js](js)
 * coffee script
 * less
 * Sass
@@ -11,7 +11,7 @@
 * [前端工具](front-end-tool.md)
 
 ## 前端框架/类库
-* [jquery](js/jquery/jquery-outline.md)
+* [jQuery](js/jquery/jquery-outline.md)
 * MVX(MVC,MVVM,MVP...)
 * 加载器(requiejs,seajs)
 * [常用js类库](js/js-plugins.md)

@@ -1,11 +1,13 @@
 ## javascript plugins整理归类网站
- * [jster](http://jster.net/) 
+ * [jster](http://jster.net/)
  * [node modules](https://nodejsmodules.org/)
 
 ##工具库
  * javascript底层工具库[underscore.js](http://underscorejs.org/) [lo-dash](http://lodash.com/)
  * [fanta](http://madscript.com/fanta/) JavaScript函数式编程的原生扩展库
- * 时间操作库[moment](http://momentjs.com/) 
+ * 时间操作库
+    * [moment](http://momentjs.com/)
+    * [datejs](http://www.datejs.com/)
  * 发布订阅  [Arbiter.js](http://arbiterjs.com/)
  * 浏览器探测 [Bowser](https://github.com/ded/bowser)
  * 输出调试信息（替代console的方案） [JavaScript Debug](http://benalman.com/projects/javascript-debug-console-log/)
