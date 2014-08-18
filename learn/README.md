@@ -1,17 +1,46 @@
-# learn
-## [前端工具](./front-end-tool.md)
-## [html](./html/html-outline.md)
-## [css](./css/css-outline.md)
-## [js](./js/js-outline.md)
-### js框架
-* [jquery](./js/jquery/jquery-outline.md)
+# Learn
+## 编程语言
+* [html](html/html-outline.md)
+* [css](css/css-outline.md)
+* [js](js/js-outline.md)
+* coffee script
+* less
+* Sass
 
-### js插件
-* lodash
-* [zeroClipboard](./js/js-plugin/copyToClipboard) 将内容复制到剪切板
+## 开发工具
+* [前端工具](front-end-tool.md)
 
-## [JSDOC](./JSDoc)
-JSDoc是一个根据javascript文件中注释的信息，生成API文档的工具。生成的文档是html文件。类似JavaDoc和PHPDoc。
+## 前端框架/类库
+* [jquery](js/jquery/jquery-outline.md)
+* MVX(MVC,MVVM,MVP...)
+* 加载器(requiejs,seajs)
+* [常用js类库](js/js-plugins.md)
+* 常用css库
+
+## 性能优化
+
+## 前端规范
+* [HTTP1.1](http://www.w3.org/Protocols/rfc2616/rfc2616.html)
+* [ECMAScript3/5](http://www.ecma-international.org/publications/standards/Ecma-262.htm)
+* [W3C/DOM/BOM/XHTML/XML/JSON/JSONP](http://www.w3.org/TR/)
+* [CommonJS Modules](http://wiki.commonjs.org/wiki/Modules/1.0)/[AMD](https://github.com/amdjs/amdjs-api/wiki/AMD)
+* [HTML5](http://www.w3.org/html/wg/drafts/html/master/)/[CSS3](http://www.w3.org/Style/CSS/specs.en.html)
+
+
+## 安全
+* XSS
+* CSRF
+
+## 部署流程
+* 包管理工具(bower)
+* 项目构建工具(grunt,gelp)
+
+## 其他
+* 设计模式
+* 数据结构
+
+## 参考
+* https://github.com/JacksonTian/fks
 
 
 
