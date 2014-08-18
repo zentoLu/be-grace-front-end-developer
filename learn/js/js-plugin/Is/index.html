@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Is demo</title>
+    <link rel="stylesheet" media="all" href="../../../../vendor/test/mocha.css">
+</head>
+
+<body>
+    <div id="mocha"></div>
+    <script src="../../../../vendor/test/mocha.js"></script>
+    <script src="../../../../vendor/test/chai.js"></script>
+    <script src="../../../../vendor/test/sinon.js"></script>
+    <script>
+    mocha.setup('bdd')
+    </script>
+    <script src="is.js"></script>
+    <script>
+    (function() {
+        chai.Should();
+
+        /*
+        A better way to write JavaScript conditional statements and still have pretty code.
+        */
+        describe('Is', function() {
+            describe('normal compare', function() {
+                it('应该与if一致', function() {
+                    var spy = sinon.spy();
+                    Is(true).then(spy);
+                    spy.called.should.be.true;
+
+                    var spy = sinon.spy();
+                    Is(3).then(spy);
+                    spy.called.should.be.true;
+
+                    var spy = sinon.spy();
+                    Is(false).then(spy);
+                    spy.called.should.be.false;
+
+                    var spy = sinon.spy();
+                    Is('').then(spy);
+                    spy.called.should.be.false;
+
+                    var spy = sinon.spy();
+                    Is(0).then(spy);
+                    spy.called.should.be.false;
+
+
+                });
+            });
+
+            describe('#equalTo', function() {
+                it('应该执行if的回调，如果值相等', function() {
+                    var spy = sinon.spy();
+                    Is("foo").equalTo("foo").then(spy);
+                    spy.called.should.be.true;
+
+                    // equalTo 是 ===
+                    var spy = sinon.spy();
+                    Is(1).equalTo("1").then(spy);
+                    spy.called.should.be.false;
+                });
+            });
+
+            describe('#matching and and', function() {
+                it('应该执行回调，同时满足多个条件', function() {
+                    // &&
+                    var spy = sinon.spy();
+                    Is(3).matching("<4", ">2", ">0").then(spy);
+                    spy.called.should.be.true;
+
+                    var spy = sinon.spy();
+                    Is(3).greaterThan(0).and.lessThan(4).then(spy);
+                    spy.called.should.be.true;
+
+
+                    var spy = sinon.spy();
+                    Is(3).matching(">4", ">0").then(spy);
+                    spy.called.should.be.false;
+
+                });
+            });
+
+            describe('#matchingAny', function() {
+                it('应该执行回调，满足其中的一个条件', function() {
+                    // || shit 这个有bug。。。
+                    var spy = sinon.spy();
+                    Is(100).matchingAny("<0", ">50").then(spy);
+                    spy.called.should.be.false;
+
+                    // 这个没有bug
+                    var spy = sinon.spy();
+                    Is(100).lessThan(0).or.greaterThan(50).then(spy);
+                    spy.called.should.be.true;
+
+                    var spy = sinon.spy();
+                    Is(100).matchingAny(">50", "<0").then(spy);
+                    spy.called.should.be.true;
+
+
+                });
+            });
+
+
+            describe('#greaterThan and >=', function() {
+                it('应该执行回调，如果大于指定值', function() {
+                    var spy = sinon.spy();
+                    Is(100).greaterThan(30).then(spy);
+                    spy.called.should.be.true;
+
+                    // 不包括 =号
+                    var spy = sinon.spy();
+                    Is(30).greaterThan(30).then(spy);
+                    spy.called.should.be.false;
+
+                    var spy = sinon.spy();
+                    Is(100).matching('>30').then(spy);
+                    spy.called.should.be.true;
+
+                    //)表示=号
+                    var spy = sinon.spy();
+                    Is(100).matching('>30)').then(spy);
+                    spy.called.should.be.true;
+                });
+            });
+
+            describe('#prop', function() {
+                it('应该获得对象的属性，prop方法被调用', function() {
+                    var spy = sinon.spy();
+                    Is({name:'joel'}).prop('name').equalTo('joel').then(spy);
+                    spy.called.should.be.true;
+
+                });
+            });
+
+            describe('#catch', function() {
+                it('应该catch分支，当值是false。相当于else', function() {
+                    var spy = sinon.spy();
+                    Is(false).then(function(){
+                    }).catch(spy);
+                    spy.called.should.be.true;
+
+                });
+            });
+
+        });
+
+    })();
+    </script>
+    <script>
+    mocha.run();
+    </script>
+</body>
+
+</html>
