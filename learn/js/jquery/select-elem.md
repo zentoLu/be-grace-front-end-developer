@@ -63,7 +63,20 @@ jquery支持使用大部分css3选择器来选元素，支持常用选择器如�
 | 向上查找直到找到匹配的      | 向上查找直到文档的根节点 | 向上查找一层    |
 | 为执行操作的每个jQuery对象返回最多一个元素 | 为执行操作的每个jQuery对象返回0或多一个元素      |    为执行操作的每个jQuery对象返回最多一个元素 | 
 
-
+## 自定义选择器
+例如
+```
+$.extend($.expr[':'], {
+    notEmpty: function(el,index, meta, stack) {
+    // element- DOM元素
+    // index - 堆栈中当前遍历的索引值
+    // meta - 关于你的选择器的数据元
+    // stack - 用于遍历所有元素的堆栈
+        return $(el).val() !== "";
+    }
+});
+$(':text:notEmpty') //所有值不为空的输入框
+```
 
 ## 参考
 * http://api.jquery.com/category/selectors/
