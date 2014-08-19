@@ -36,7 +36,7 @@
 * 项目构建工具(grunt,gelp)
 
 ## 其他
-* 设计模式
+* [设计模式](http://addyosmani.com/resources/essentialjsdesignpatterns/book/)
 * 数据结构
 
 ## 参考
