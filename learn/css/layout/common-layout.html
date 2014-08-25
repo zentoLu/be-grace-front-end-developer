@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>常见布局</title>
+    <style>
+    .content {
+        width: 960px;
+        margin: 50px auto;
+        color:#fff;
+    }
+    .demo{
+    	margin-bottom: 10px;
+    }
+    .column {
+        height: 50px;
+    }
+    .left-column {
+        background: #f00;
+    }
+    .middle-column {
+        background: #0f0;
+    }
+    .right-column {
+        background: #00f;
+    }
+    </style>
+</head>
+
+<body>
+    <div class="content">
+        <h2>两栏布局</h2>
+        <div>
+            <h3>左栏定宽，右栏填充剩余部分</h3>
+            <div id="left-fix-right-auto-1" class="demo">
+                <style>
+                #left-fix-right-auto-1 .left-column {
+                    width: 200px;
+                    float: left;
+                }
+                #left-fix-right-auto-1 .right-column {
+                	/*margin-left: 200px;*/
+                    _position: relative;
+                    _left: -3px;
+                }
+                </style>
+                <div class="left-column column">left content</div>
+                <div class="right-column column">right content</div>
+            </div>
+             <div id="left-fix-right-auto-2" class="demo">
+                <style>
+                #left-fix-right-auto-2{
+                	position: relative;
+                }
+                #left-fix-right-auto-2 .left-column {
+                    width: 200px;
+                    position: absolute;
+                    left: 0px;
+                    top: 0;
+                }
+                #left-fix-right-auto-2 .right-column {
+                	margin-left: 200px;
+                    _position: relative;
+
+                }
+                </style>
+                <div class="left-column column">left content</div>
+                <div class="right-column column">right content</div>
+            </div>
+        </div>
+    </div>
+    <p>兼容IE6哦</p>
+</body>
+
+</html>
