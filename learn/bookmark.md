@@ -68,6 +68,7 @@
     * [生成loading图标](http://preloaders.net/)
     * [字体（视巨网）](http://www.ssjee.com/forum.php?mod=forumdisplay&fid=55&filter=typeid&typeid=12&sortid=6)
     * [在线icon制作](http://www.xiconeditor.com/)
+    * [分享按钮](http://www.jiathis.com/)
 
 * 其他
     * [前端面试题](https://github.com/darcyclarke/Front-end-Developer-Interview-Questions)
