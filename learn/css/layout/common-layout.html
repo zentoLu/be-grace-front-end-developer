@@ -8,13 +8,13 @@
     .content {
         width: 960px;
         margin: 50px auto;
-        color:#fff;
     }
     .demo{
     	margin-bottom: 10px;
     }
     .column {
         height: 50px;
+        color:#fff;
     }
     .left-column {
         background: #f00;
@@ -68,6 +68,28 @@
                 <div class="left-column column">left content</div>
                 <div class="right-column column">right content</div>
             </div>
+        </div>
+
+        <h2>宽度不固定的元素水平居中</h2>
+        <p>父元素用<code>text-align: center;</code>, 子元素用<code>display:inline-block;</code></p>
+        <style>
+        #width-auto-center{
+            text-align: center;
+        }
+        #width-auto-center span{
+            display: inline-block;
+            _display:inline;/* 兼容ie6 */
+            height: 30px;
+            line-height: 30px;
+            background: #ddd;
+            border:1px solid #eee;
+        }
+        </style>
+        
+        <div id="width-auto-center">
+            <span>111dfdfdfdfdfdfdfdf</span>
+            <span>123</span>
+            <span>456</span>
         </div>
     </div>
     <p>兼容IE6哦</p>
