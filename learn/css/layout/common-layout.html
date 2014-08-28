@@ -9,12 +9,12 @@
         width: 960px;
         margin: 50px auto;
     }
-    .demo{
-    	margin-bottom: 10px;
+    .demo {
+        margin-bottom: 10px;
     }
     .column {
         height: 50px;
-        color:#fff;
+        color: #fff;
     }
     .left-column {
         background: #f00;
@@ -40,7 +40,7 @@
                     float: left;
                 }
                 #left-fix-right-auto-1 .right-column {
-                	/*margin-left: 200px;*/
+                    /*margin-left: 200px;*/
                     _position: relative;
                     _left: -3px;
                 }
@@ -48,10 +48,10 @@
                 <div class="left-column column">left content</div>
                 <div class="right-column column">right content</div>
             </div>
-             <div id="left-fix-right-auto-2" class="demo">
+            <div id="left-fix-right-auto-2" class="demo">
                 <style>
-                #left-fix-right-auto-2{
-                	position: relative;
+                #left-fix-right-auto-2 {
+                    position: relative;
                 }
                 #left-fix-right-auto-2 .left-column {
                     width: 200px;
@@ -60,39 +60,68 @@
                     top: 0;
                 }
                 #left-fix-right-auto-2 .right-column {
-                	margin-left: 200px;
+                    margin-left: 200px;
                     _position: relative;
-
                 }
                 </style>
                 <div class="left-column column">left content</div>
-                <div class="right-column column">right content</div>
+                <div class="right-column column">right content(IE 6下left content消失了。。。)</div>
             </div>
         </div>
 
         <h2>宽度不固定的元素水平居中</h2>
-        <p>父元素用<code>text-align: center;</code>, 子元素用<code>display:inline-block;</code></p>
+        <p>父元素用
+            <code>text-align: center;</code>, 子元素用
+            <code>display:inline-block;</code>
+        </p>
         <style>
-        #width-auto-center{
+        #width-auto-center {
             text-align: center;
         }
-        #width-auto-center span{
+        #width-auto-center span {
             display: inline-block;
-            _display:inline;/* 兼容ie6 */
+            _display: inline;
+            /* 兼容ie6 */
             height: 30px;
             line-height: 30px;
             background: #ddd;
-            border:1px solid #eee;
+            border: 1px solid #eee;
         }
         </style>
-        
+
         <div id="width-auto-center">
             <span>111dfdfdfdfdfdfdfdf</span>
             <span>123</span>
             <span>456</span>
         </div>
+
+        <h2>绝对定位的元素水平居中</h2>
+        <p>使用
+            <code>left:50%;margin-left:-200px;/*自身宽度的一半*/</code>
+        </p>
+        <div id="absolute-center">
+            <style>
+            #absolute-center .wrap {
+                position: relative;
+                height: 50px;
+                background: #f00;
+            }
+            #absolute-center .box {
+                position: absolute;
+                width: 400px;
+                left: 50%;
+                margin-left: -200px;
+                height: 50px;
+                background: #ddd;
+            }
+            </style>
+            <div class="wrap">
+                <div class="box">
+                </div>
+            </div>
+        </div>
     </div>
-    <p>兼容IE6哦</p>
+    <p>除了个别，别的都兼容IE6哦</p>
 </body>
 
 </html>
