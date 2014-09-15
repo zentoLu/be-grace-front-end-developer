@@ -3,6 +3,7 @@
 * [html](html)
 * [css](css)
 * [js](js)
+* [浏览器](browser)
 * coffee script
 * less
 * Sass

@@ -8,6 +8,7 @@
 	* [html](learn/html)
 	* [css](learn/css)
 	* [js](learn/js)
+	* [浏览器](learn/browser)
 * [自己写的小组件](my-lib)：
     * [random](my-lib/random)：生成满足条件一些随机结果：随机数，随机字母等
     * [validParam](my-lib/validParam): 验证方法参数是否符合要求

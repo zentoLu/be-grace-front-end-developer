@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>browser detect</title>
+</head>
+<body>
+	<p id="browser-info">
+		
+	</p>
+	<script src="bowser.js"></script>
+    <script>
+    (function(argument) {
+
+        // var result;
+        // var ua = typeof navigator !== 'undefined' ? navigator.userAgent : '';
+        // 只要判断IE的实现
+        // if (/msie|trident/i.test(ua)) {
+        //     result = {
+        //         name: 'Internet Explorer',
+        //         msie: true,
+        //         version: getFirstMatch(ua, /(?:msie |rv:)(\d+(\.\d+)?)/i)
+        //     };
+        //     alert(formatBrowserInfo(result));
+        // } else {
+        //     // alert('非ie');
+        // }
+
+        // function getFirstMatch(ua, regex) {
+        //     var match = ua.match(regex);
+        //     return (match && match.length > 1 && match[1]) || '';
+        // }
+
+        function formatBrowserInfo(obj) {
+            var str = ['name : ', obj.name, '<br/> version : ', obj.version].join('');
+            return str;
+        }
+
+        //用框架探测
+        document.getElementById('browser-info').innerHTML = formatBrowserInfo(bowser);
+
+    })();
+    </script>
+</body>
+
+</html>
