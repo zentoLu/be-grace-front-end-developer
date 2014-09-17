@@ -30,14 +30,14 @@ $elem.hide().show();
 ```
 
 ## <a name="float-li-3px">li底部3px的Bug</a>
-IE6/IE7中li底部3px的Bug   当li的子元素中有浮动（float）时，IE6/IE7中li会产生3px空隙的bug的。
+IE6，7下，当li的子元素浮动（float），并且li设置了以下CSS属性之一：`width、height、zoom、padding-top、padding-bottom、margin-top、margin-bottom`，li会产生3px空隙。    
+解决方案:给li的浮动的子元素上设置`vertical-align:top|middle|bottom`
 
 
 ## <a name="repeat-text">IE6注释bug</a>
 IE6下，满足以下条件
 * 一个容器包含2两个具有“float”样式的子容器。
 * 容器的宽度大于父容器的宽度，或者父容器宽度减去第二个容器宽度的值小于3
-http://blog.163.com/luoqun_fang/blog/static/17298207720117173850667/
 * 在第二个容器前存在注释
 
 会出现重复的字符内容
