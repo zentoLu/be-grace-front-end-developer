@@ -5,6 +5,7 @@
 * [滚动条bug](#double-margin)
 * [浏览器未重绘导致的问题](#repaint)
 * [li底部3px的Bug](#float-li-3px)
+* [body上设置overflow-y:hidden的问题](#over-flow-y)
 
 ## <a name="double-margin">双边距</a>
 
@@ -49,4 +50,10 @@ http://blog.163.com/luoqun_fang/blog/static/17298207720117173850667/
     position:absolute定位在IE6下存在的定位错误问题: 
 
     给其父类加zoom:1; 来触发 hasLayout  2，设宽
+
+
+## <a name="over-flow-y">body上设置overflow-y:hidden的问题</a>
+
+在ie6，7中，设置在body元素上`overflow-y:hidden`不能隐藏滚动条。
+解决：在html元素上也设置`overflow-y:hidden`
 
