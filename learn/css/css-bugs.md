@@ -8,15 +8,21 @@
 * [body上设置overflow-y:hidden的问题](#over-flow-y)
 
 ## <a name="double-margin">双边距</a>
+IE6下,一个div盒子如果设置了margin和浮动，便会产生双边距问题。    
+解决方案：给该div设置样式`_display:inline`。
 
 ## <a name="overflow-hidden-bug">`overflow:hidden`失效</a>
+IE6，7下，当父元素的子元素的样式拥有`position:relative`时，父元素的`overflow:hidden`属性就会失效。    
+解决方案：父元素也设置`position:relative`
 
 ## <a name="scroll-hidden-bug">滚动条bug</a>
+IE6，7下，当固定了一个元素的宽高，纵向溢出（overflow-y）为滚动（scroll）或者自动（auto）时，当其子元素有`position:relative`时，子元素不会随滚动条滚动
+解决方案: 给该元素也设置`position:relative`
 
 ## <a name="repaint">浏览器未重绘导致的问题</a>
 解决方式,用js,让其隐藏再显示
 ```
-$elem.hide().show()
+$elem.hide().show();
 ```
 
 ## <a name="float-li-3px">li底部3px的Bug</a>
@@ -54,6 +60,6 @@ http://blog.163.com/luoqun_fang/blog/static/17298207720117173850667/
 
 ## <a name="over-flow-y">body上设置overflow-y:hidden的问题</a>
 
-在ie6，7中，设置在body元素上`overflow-y:hidden`不能隐藏滚动条。
-解决：在html元素上也设置`overflow-y:hidden`
+在ie6，7中，设置在body元素上`overflow-y:hidden`不能隐藏滚动条。    
+解决方案：在html元素上也设置`overflow-y:hidden`
 
