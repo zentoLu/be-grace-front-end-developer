@@ -28,8 +28,8 @@
     * [jcarousel](http://sorgalla.com/jcarousel/) 普通的幻灯，不兼容IE6
     * [reveal](https://github.com/hakimel/reveal.js) 3d滚动。做ppt相当不错
     * [roundabout](https://github.com/fredleblanc/roundabout) 3d切换，看的后面图片的边
-	
-
+* 弹出框
+    * [layer](https://github.com/sentsin/layer) 国人开发的，兼容ie6+。不喜欢其调用方式。
 * 浏览图片
     * [fancybox](http://fancyapps.com/fancybox/) 弹出查看图片，视屏等等 [demo](http://fancyapps.com/fancybox/demo/)
     * [yoxview](http://www.yoxigen.com/yoxview/) 弹出查看图片，图片尺寸缩放很自然
