@@ -54,6 +54,9 @@ https://sublime.wbond.net/browse/popular
 ### [Bootstrap 3 Snippets](https://github.com/JasonMortonNZ/bs3-sublime-plugin)
 快速生成bootstrap3的一些组件的Snippets
 
+### [DashDoc](https://github.com/farcaller/DashDoc#readme)
+将dash集成到sublime中。选单词按｀ctrl＋H｀会在dash中进行搜索。
+
 ## <a name="shortcut">快捷键</a>
 * `Ctrl+Shift+P` 打开命令面板
 * Ctrl+\` 打开控制台命令面板(\`在``中转义不鸟)
