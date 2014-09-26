@@ -23,6 +23,12 @@ id会带来的两个副作用
 
 ## 和js相关的元素的类名或id加 js前缀
 
+## 样式的书写顺序
+先整体,后细节。    
+整体包括 positon，left,top,display,float,width，height之类的    
+细节包括 color，background，font之类的
+
+
 
 一些类名
 ### 描述状态
@@ -37,5 +43,7 @@ id会带来的两个副作用
 * http://nicolasgallagher.com/about-html-semantics-front-end-architecture/ oocss的作者写的
 * [OOCSS](https://github.com/stubbornella/oocss/wiki)
 https://github.com/stubbornella/oocss/wiki
+* http://www.slideshare.net/stubbornella/object-oriented-css/57
 * [apple pie](http://www.apppie.org/g)
 * http://smacss.com/book/
+* http://csswizardry.com/2014/08/css-guidelines-2-0-0/
