@@ -72,7 +72,7 @@
     * [perfect scrollbar](https://github.com/noraesae/perfect-scrollbar) 轻量级的滚动条
     * [iscroll](http://iscrolljs.com) high performance, small footprint, dependency free, multi-platform javascript scroller
 * flash
-    * [swfobj](http://code.google.com/p/swfobject/wiki/documentation) 能够自动检测PC、Mac机器上各种主流浏览器对Flash插件的支持情况。它使得插入Flash媒体资源尽量简捷、安全。而且它是非常符合搜索引擎优化的原则的。此外，它能够避免您的HTML、XHTML中出现object、embed等非标准标签，从而符合更加标准。 
+    * [swfobj](http://code.google.com/p/swfobject/wiki/documentation) 能够自动检测PC、Mac机器上各种主流浏览器对Flash插件的支持情况。它使得插入Flash媒体资源尽量简捷、安全。而且它是非常符合搜索引擎优化的原则的。此外，它能够避免您的HTML、XHTML中出现object、embed等非标准标签，从而符合更加标准。
 
 
 * 表格组件
@@ -80,10 +80,13 @@
     * [backgrid](http://backgridjs.com/) 各种功能，带分页，可编辑表格内容。很棒。
 * 编辑器
     * [ace](http://ace.c9.io) 代码编辑器，可以用来做demo演示
+    * [ckeditor](http://ckeditor.com/)
+    * [ueditor](http://ueditor.baidu.com/website/) 百度做的
+    * [tinymce](http://www.tinymce.com/tryit/full.php) 对html内容进行实时的编辑
 * 美化代码
-    * [google-code-prettify](https://code.google.com/p/google-code-prettify/) 
+    * [google-code-prettify](https://code.google.com/p/google-code-prettify/)
 
-* 图表组件  
+* 图表组件
 	*  [highcharts](http://www.highcharts.com/) 功能强大。是收费的。。。 390$ * 6 = 2400左右
 	* [flot](http://www.flotcharts.org/) 文档不给力
 	* [chartJs](http://www.chartjs.org/) [中文文档](http://www.bootcss.com/p/chart.js/docs/)  demo很漂亮，很清晰。比较轻量级。
