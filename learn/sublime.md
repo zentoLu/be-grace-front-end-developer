@@ -1,11 +1,26 @@
 ## sublime
 ## 目录
-* [插件](#plugin)
+* [安装package manager](#install)
+* [插件推荐](#plugin)
 * [snippets](#snippets)
 * [常用快捷键](#shortcut)
 
 
-## <a name="plugin">插件</a>
+## <a name="install">安装package manager</a>
+### 1. Ctrl+\` 打开控制台
+### 2. 如果是sublime3，粘入
+```
+import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)
+```
+如果是sublime2，粘入
+```
+import urllib2,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); os.makedirs( ipp ) if not os.path.exists(ipp) else None; urllib2.install_opener( urllib2.build_opener( urllib2.ProxyHandler()) ); by = urllib2.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); open( os.path.join( ipp, pf), 'wb' ).write(by) if dh == h else None; print('Error validating download (got %s instead of %s), please try manual install' % (dh, h) if dh != h else 'Please restart Sublime Text to finish installation')
+```
+### 3. 打开命令面板，键入`install`,若出现`Package Control: Install Package`。则说明安装成功
+
+详细 见[这里](https://sublime.wbond.net/installation)
+
+## <a name="plugin">插件推荐</a>
 ### [BracketHighlighter](https://github.com/facelessuser/BracketHighlighter)
 高亮匹配的各种括号
 ![BracketHighlighter](https://camo.githubusercontent.com/771f9df16f29a134369cbcb0913f55932d156983/687474703a2f2f646c2e64726f70626f782e636f6d2f752f3334323639382f427261636b6574486967686c6967687465722f4578616d706c65312e706e67)
@@ -35,13 +50,14 @@
 ### [CSSComb](http://csscomb.com/)
 将css样式按照一定的顺序进行排列。可自定义规则。
 
-
-
 ### [Markdown Preview](https://sublime.wbond.net/packages/Markdown%20Preview)
 可以在浏览器中预览markdown，或将markdown转化成html
 
 ### [Trailing​Spaces](https://sublime.wbond.net/packages/TrailingSpaces)
 让多余的空格无所遁形。
+
+### [DashDoc](https://github.com/farcaller/DashDoc#readme)
+将dash集成到sublime中。选单词按｀ctrl＋H｀会在dash中进行搜索。
 
 ### sulime 插件排行
 https://sublime.wbond.net/browse/popular
@@ -50,12 +66,8 @@ https://sublime.wbond.net/browse/popular
 * [我的sulime snippent]https://github.com/iamjoel/sublime-snippets/
 * [Super-Snippets](https://github.com/jakebresnehan/Sublime-Super-Snippets) 某前端工程师的snippets
 
-
 ### [Bootstrap 3 Snippets](https://github.com/JasonMortonNZ/bs3-sublime-plugin)
 快速生成bootstrap3的一些组件的Snippets
-
-### [DashDoc](https://github.com/farcaller/DashDoc#readme)
-将dash集成到sublime中。选单词按｀ctrl＋H｀会在dash中进行搜索。
 
 ## <a name="shortcut">快捷键</a>
 * `Ctrl+Shift+P` 打开命令面板
@@ -82,7 +94,7 @@ https://sublime.wbond.net/browse/popular
 * 未选择内容 `Ctrl+x`: 剪切当前行
 * `Ctrl+/`: 注释当前行
 * `Ctrl+Shift+/`: 当前位置插入注释
-* `Alt+.`：闭合标签
+* `Alt+.`：闭合html标签
 * `Alt+Shift+W`：用html标签来包裹选中的内容
 
 ### 文件操作
@@ -100,10 +112,18 @@ https://sublime.wbond.net/browse/popular
 
 ### 其他
 * `F12`: 将当前文件在默认打开工具中打开，如html文件会在默认浏览器中打开
-* `Ctrl+K+B`: 显示/隐藏左侧栏
+* `Ctrl+K, Ctrl+B`: 显示/隐藏左侧栏
 * `F11`：全屏
 * `Shift+F11`：全屏只编辑当前文件
 * `Alt+Shift+数字`：分几屏显示
+
+## 官方整理的快捷键
+### mac
+https://sublime-text-unofficial-documentation.readthedocs.org/en/latest/reference/keyboard_shortcuts_osx.html
+
+## Windows/Linux
+https://sublime-text-unofficial-documentation.readthedocs.org/en/latest/reference/keyboard_shortcuts_win.html
+
 
 
 
