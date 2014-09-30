@@ -83,7 +83,7 @@
     * [ckeditor](http://ckeditor.com/)
     * [ueditor](http://ueditor.baidu.com/website/) 百度做的
     * [tinymce](http://www.tinymce.com/tryit/full.php) 对html内容进行实时的编辑
-* 美化/语法代码
+* 美化/高亮语法代码
     * [google-code-prettify](https://code.google.com/p/google-code-prettify/)
     * [DlHighlight](http://mihai.bazon.net/projects/javascript-syntax-highlighting-engine) 仅支持JavaScript、CSS、XML、HTML 这4语法高亮
 
@@ -92,6 +92,9 @@
 	* [flot](http://www.flotcharts.org/) 文档不给力
 	* [chartJs](http://www.chartjs.org/) [中文文档](http://www.bootcss.com/p/chart.js/docs/)  demo很漂亮，很清晰。比较轻量级。
 	* [ichartJs](http://www.ichartjs.com/) 中国的一个家伙搞的，感觉还不错。
+
+* 菜单
+    * [jQuery-menu-aim](https://github.com/kamens/jQuery-menu-aim) 二级菜单的切换如Amazon主页上一样迅速
 
 * 选取时间
     * [jQuery ui datepicker](http://jqueryui.com/datepicker/) 经典，不是很好看
