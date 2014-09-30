@@ -5,7 +5,7 @@
 ##工具库
  * javascript底层工具库[underscore.js](http://underscorejs.org/) [lo-dash](http://lodash.com/)
  * [fanta](http://madscript.com/fanta/) JavaScript函数式编程的原生扩展库
- * 时间操作库
+ * 时间操作库   
     * [moment](http://momentjs.com/)
     * [datejs](http://www.datejs.com/)
  * 发布订阅  [Arbiter.js](http://arbiterjs.com/)
@@ -119,8 +119,10 @@
 * 抓取，解析RSS内容（不能跨域，所以后台要做代理，所谓的解析Rss其实就是解析xml）
     * [jFeed](https://github.com/jfhovinne/jFeed) 
     * [jRss](https://github.com/malderete/jRss)  简单版的jFeed
-* 演讲展示
+* 展示
+    * [Impress.js](https://developer.cdn.mozilla.net/media/uploads/demos/b/a/bartaz/54e3827142e4149a5c01db64c9517c84/impressjs_1333223745_demo_package/index.html#/bored) 各种旋转，和奇特的体验
     * [fullPage](http://alvarotrigo.com/fullPage) 全屏显示。用滚轮来翻页 
+    * [Intro.js](http://usablica.github.io/intro.js/) 用来介绍网站的功能很不错
 * 其他
     * [nouislider](http://refreshless.com/nouislider/) 用滚动条来设置/控制（音量等）
     * [blockUI](http://jquery.malsup.com/block/) 给元素加loading背景。也可以自己定制loading的css

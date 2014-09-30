@@ -59,6 +59,8 @@ import urllib2,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4b
 ### [DashDoc](https://github.com/farcaller/DashDoc#readme)
 将dash集成到sublime中。选单词按｀ctrl＋H｀会在dash中进行搜索。
 
+### [GitGutter](https://github.com/jisaacks/GitGutter) 在文件的行号旁边显示文件的修改状态
+
 ### sulime 插件排行
 https://sublime.wbond.net/browse/popular
 
@@ -125,7 +127,8 @@ https://sublime-text-unofficial-documentation.readthedocs.org/en/latest/referenc
 https://sublime-text-unofficial-documentation.readthedocs.org/en/latest/reference/keyboard_shortcuts_win.html
 
 
-
+### 关于sublime
+http://scotch.io/series/the-complete-visual-guide-to-sublime-text-3
 
 
 

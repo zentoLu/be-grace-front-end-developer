@@ -38,6 +38,40 @@ id会带来的两个副作用
 * enabled
 * disabled
 
+## 布局命名
+* 头部 head
+* 尾部 foot
+* 主栏 main
+* 侧栏 side
+* 盒容器 wrap
+## 常用模块命名
+* 导航 nav
+* 子导航 subnav
+* 面包屑 crumb
+* 菜单 menu
+* 选项卡 tab
+* 标题 head/title
+* 列表 content
+* 内容 list
+* 表格 table
+* 表单 form
+* 热点 hot
+* 排行 top
+* 登录 login
+* 标志 log
+* 搜索 search
+* 幻灯 slide
+* 提示 tip
+* 帮助 help
+* 新闻 news
+* 下载 download
+* 注册 regist
+* 投票 vote
+* 版权 copyright
+* 结果 result
+* 按钮 button
+* 输入 input
+
 
 ## 参考
 * http://nicolasgallagher.com/about-html-semantics-front-end-architecture/ oocss的作者写的
