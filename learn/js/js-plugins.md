@@ -83,8 +83,9 @@
     * [ckeditor](http://ckeditor.com/)
     * [ueditor](http://ueditor.baidu.com/website/) 百度做的
     * [tinymce](http://www.tinymce.com/tryit/full.php) 对html内容进行实时的编辑
-* 美化代码
+* 美化/语法代码
     * [google-code-prettify](https://code.google.com/p/google-code-prettify/)
+    * [DlHighlight](http://mihai.bazon.net/projects/javascript-syntax-highlighting-engine) 仅支持JavaScript、CSS、XML、HTML 这4语法高亮
 
 * 图表组件
 	*  [highcharts](http://www.highcharts.com/) 功能强大。是收费的。。。 390$ * 6 = 2400左右
