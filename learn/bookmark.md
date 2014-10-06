@@ -20,8 +20,12 @@
     * [colorschemedesigner](http://colorschemedesigner.com/): 网站配色
 
 
+
 *  网站架构
     *  [BEM](http://bem.info/method/):构建可维护，高度重用的网站的指导
+    *  [OOCSS](https://github.com/stubbornella/oocss/wiki)
+    *  [apple pie](http://www.apppie.org)
+    *  [semantics-front-end-architecture](http://nicolasgallagher.com/about-html-semantics-front-end-architecture/)
     *  [网易样式规范参考](http://nec.netease.com/framework)
 
 *  网站性能测试
@@ -66,9 +70,16 @@
     * [开放静态文件 CDN](http://staticfile.org/) 更多静态文件资源。由七云提供。
     * [subtlepatterns](http://subtlepatterns.com/): 网站背景图片
     * [生成loading图标](http://preloaders.net/)
+    * [有字库](www.youziku.com) 中文web字库
     * [字体（视巨网）](http://www.ssjee.com/forum.php?mod=forumdisplay&fid=55&filter=typeid&typeid=12&sortid=6)
     * [在线icon制作](http://www.xiconeditor.com/)
     * [分享按钮](http://www.jiathis.com/)
+
+* demo预览网站
+    * [Runjs](http://runjs.cn/)
+    * [CodePen](http://codepen.io/)
+    * [Jsfiddle](http://jsfiddle.net/)
+    * [Dabblet](https://compilr.com/)
 
 * 其他
     * [前端面试题](https://github.com/darcyclarke/Front-end-Developer-Interview-Questions)

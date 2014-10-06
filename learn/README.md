@@ -8,8 +8,7 @@
 * less
 * Sass
 
-## 开发工具
-* [前端工具](front-end-tool.md)
+## [开发工具使用](software-use)
 
 ## 前端框架/类库
 * [jQuery](js/jquery/jquery-outline.md)

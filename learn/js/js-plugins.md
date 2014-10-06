@@ -5,7 +5,7 @@
 ##工具库
  * javascript底层工具库[underscore.js](http://underscorejs.org/) [lo-dash](http://lodash.com/)
  * [fanta](http://madscript.com/fanta/) JavaScript函数式编程的原生扩展库
- * 时间操作库
+ * 时间操作库   
     * [moment](http://momentjs.com/)
     * [datejs](http://www.datejs.com/)
  * 发布订阅  [Arbiter.js](http://arbiterjs.com/)
@@ -72,7 +72,7 @@
     * [perfect scrollbar](https://github.com/noraesae/perfect-scrollbar) 轻量级的滚动条
     * [iscroll](http://iscrolljs.com) high performance, small footprint, dependency free, multi-platform javascript scroller
 * flash
-    * [swfobj](http://code.google.com/p/swfobject/wiki/documentation) 能够自动检测PC、Mac机器上各种主流浏览器对Flash插件的支持情况。它使得插入Flash媒体资源尽量简捷、安全。而且它是非常符合搜索引擎优化的原则的。此外，它能够避免您的HTML、XHTML中出现object、embed等非标准标签，从而符合更加标准。 
+    * [swfobj](http://code.google.com/p/swfobject/wiki/documentation) 能够自动检测PC、Mac机器上各种主流浏览器对Flash插件的支持情况。它使得插入Flash媒体资源尽量简捷、安全。而且它是非常符合搜索引擎优化的原则的。此外，它能够避免您的HTML、XHTML中出现object、embed等非标准标签，从而符合更加标准。
 
 
 * 表格组件
@@ -80,14 +80,21 @@
     * [backgrid](http://backgridjs.com/) 各种功能，带分页，可编辑表格内容。很棒。
 * 编辑器
     * [ace](http://ace.c9.io) 代码编辑器，可以用来做demo演示
-* 美化代码
-    * [google-code-prettify](https://code.google.com/p/google-code-prettify/) 
+    * [ckeditor](http://ckeditor.com/)
+    * [ueditor](http://ueditor.baidu.com/website/) 百度做的
+    * [tinymce](http://www.tinymce.com/tryit/full.php) 对html内容进行实时的编辑
+* 美化/高亮语法代码
+    * [google-code-prettify](https://code.google.com/p/google-code-prettify/)
+    * [DlHighlight](http://mihai.bazon.net/projects/javascript-syntax-highlighting-engine) 仅支持JavaScript、CSS、XML、HTML 这4语法高亮
 
-* 图表组件  
+* 图表组件
 	*  [highcharts](http://www.highcharts.com/) 功能强大。是收费的。。。 390$ * 6 = 2400左右
 	* [flot](http://www.flotcharts.org/) 文档不给力
 	* [chartJs](http://www.chartjs.org/) [中文文档](http://www.bootcss.com/p/chart.js/docs/)  demo很漂亮，很清晰。比较轻量级。
 	* [ichartJs](http://www.ichartjs.com/) 中国的一个家伙搞的，感觉还不错。
+
+* 菜单
+    * [jQuery-menu-aim](https://github.com/kamens/jQuery-menu-aim) 二级菜单的切换如Amazon主页上一样迅速
 
 * 选取时间
     * [jQuery ui datepicker](http://jqueryui.com/datepicker/) 经典，不是很好看
@@ -112,8 +119,11 @@
 * 抓取，解析RSS内容（不能跨域，所以后台要做代理，所谓的解析Rss其实就是解析xml）
     * [jFeed](https://github.com/jfhovinne/jFeed) 
     * [jRss](https://github.com/malderete/jRss)  简单版的jFeed
-* 演讲展示
+* 展示
+    * [Impress.js](https://developer.cdn.mozilla.net/media/uploads/demos/b/a/bartaz/54e3827142e4149a5c01db64c9517c84/impressjs_1333223745_demo_package/index.html#/bored) 各种旋转，和奇特的体验
     * [fullPage](http://alvarotrigo.com/fullPage) 全屏显示。用滚轮来翻页 
+    * [Intro.js](http://usablica.github.io/intro.js/) 用来介绍网站的功能很不错
 * 其他
     * [nouislider](http://refreshless.com/nouislider/) 用滚动条来设置/控制（音量等）
     * [blockUI](http://jquery.malsup.com/block/) 给元素加loading背景。也可以自己定制loading的css
+    * [Ink](http://zurb.com/ink/) 响应式html邮件框架
