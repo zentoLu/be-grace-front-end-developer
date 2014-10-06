@@ -32,10 +32,14 @@
 
 更多用法见 http://docs.emmet.io/
 
+### [prefixr](http://wbond.net/sublime_packages/prefixr)
+自动插入css3的前缀。
+
+### HTML5
+HTML5语法高亮
+
 ### [CSSComb](http://csscomb.com/)
 将css样式按照一定的顺序进行排列。可自定义规则。
-
-
 
 ### [Markdown Preview](https://sublime.wbond.net/packages/Markdown%20Preview)
 可以在浏览器中预览markdown，或将markdown转化成html
