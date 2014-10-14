@@ -63,6 +63,7 @@
     * [smashingmagazine](http://www.smashingmagazine.com/tag/web-design/)
     * [awwwards](http://www.awwwards.com/) 做的很好看的网站汇总
     * [站酷](http://www.zcool.com.cn/)
+    * [Type is beautiful](http://www.typeisbeautiful.com/) 文字设计和视觉文化
 
 * 资源
     * [findIcons](http://findicons.com/ ) : icon搜索引擎
