@@ -1,6 +1,5 @@
 # 动画
 ## transition（过渡）
-浏览器兼容性 Internet Explorer 10、Firefox、Opera 和 Chrome。    
 transition 属性是一个简写属性，用于设置四个过渡属性：
 * transition-property 过渡属性
 * transition-duration 持续时间
@@ -11,7 +10,7 @@ transition 属性是一个简写属性，用于设置四个过渡属性：
 ```
 transition: property duration timing-function delay;
 ```
-默认值：all 0 ease 0;    
+默认值：`transition:all 0 ease 0;`    
 
 在同一行transition语句中，可以分别指定多个属性
 ```
@@ -19,6 +18,9 @@ img{
     transition: 1s height, 1s width;
 }
 ```
+
+####浏览器兼容性
+Internet Explorer 10、Firefox、Opera 和 Chrome。
 
 #### transition-property
 支持动画的css属性[见这里](http://oli.jp/2010/css-animatable-properties/)
@@ -45,7 +47,9 @@ CSS Animation就是为了解决这些问题而提出的。
 ## 资源
 * [阮一峰的CSS动画简介](http://www.ruanyifeng.com/blog/2014/02/css_transition_and_animation.html)
 * [lea的牛掰的关于动画的幻灯](http://lea.verou.me/css-4d/)
-* [](http://leaverou.github.io/animatable/)
+* [各种动画的演示页](http://leaverou.github.io/animatable/)
 
 ## 工具
+* [贝塞尔曲线生成工具](http://cubic-bezier.com/)
+* [缓动函数速查表](http://easings.net/zh-cn)
 
