@@ -6,7 +6,8 @@
     * [浏览器hack](css-hack.md)
     * [常见浏览器bug及处理](css-bugs.md)
 * [布局](layout.md)
-* [css框架](framework/css-framework.md)
+* [css框架](framework)
+* [动画](animation)
 * 最佳实践
     * [提高CSS性能](optimize.md)
     * [组织CSS代码](organize.md)
