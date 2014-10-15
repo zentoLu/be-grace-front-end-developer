@@ -35,8 +35,10 @@
 
 * 代码展示
     * [jsfiddle](http://jsfiddle.net/)
-    * [dabblet](http://dabblet.com/)
+    * [dabblet](http://dabblet.com/) 演示css的的比较好,都不用加浏览器前缀，对js的支持比较弱
     * [runjs](http://runjs.cn/)
+    * [jsbin](http://jsbin.com/)
+    * [gist](https://gist.github.com/)  可以写一些代码片段
 
 *  订阅
     * [邮件订阅](mail-subscribe.md)
