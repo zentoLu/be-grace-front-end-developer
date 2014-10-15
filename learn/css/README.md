@@ -7,7 +7,7 @@
     * [常见浏览器bug及处理](css-bugs.md)
 * [布局](layout.md)
 * [css框架](framework)
-* [动画](animation)
+* [css3](https://github.com/iamjoel/css3-learn)
 * 最佳实践
     * [提高CSS性能](optimize.md)
     * [组织CSS代码](organize.md)

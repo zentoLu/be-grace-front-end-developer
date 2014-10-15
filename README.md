@@ -17,7 +17,8 @@
 
 ## 我写的其他组件
 * [simple-slide](https://github.com/iamjoel/simple-slide) 基于jquery的简单幻灯组件。兼容 Firefox，Chrome，IE6+。
-* [pagin](https://github.com/iamjoel/paging) 基于jquery的分页组件。兼容 Firefox，Chrome，IE6+。
+* [paging](https://github.com/iamjoel/paging) 基于jquery的分页组件。兼容 Firefox，Chrome，IE6+。
+* [popup](https://github.com/iamjoel/popup) 弹出层组件。兼容 Firefox，Chrome，IE6+。
 * [ractive-paging](https://github.com/iamjoel/ractive-paging) 基于ractive的分页组件。不兼容IE6。
 * [number-controller](https://github.com/iamjoel/number-controller) 基于jquery的输入框中输入数字，左右两侧有加减来调节数字大小的组件。兼容 Firefox，Chrome，IE6+。
 
