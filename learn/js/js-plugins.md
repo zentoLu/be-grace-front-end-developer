@@ -123,6 +123,8 @@
     * [Impress.js](https://developer.cdn.mozilla.net/media/uploads/demos/b/a/bartaz/54e3827142e4149a5c01db64c9517c84/impressjs_1333223745_demo_package/index.html#/bored) 各种旋转，和奇特的体验
     * [fullPage](http://alvarotrigo.com/fullPage) 全屏显示。用滚轮来翻页 
     * [Intro.js](http://usablica.github.io/intro.js/) 用来介绍网站的功能很不错
+* css相关
+    * [prefixfree](https://github.com/LeaVerou/prefixfree/) 用了它，写css时，就不需要加浏览器的前缀了
 * 其他
     * [nouislider](http://refreshless.com/nouislider/) 用滚动条来设置/控制（音量等）
     * [blockUI](http://jquery.malsup.com/block/) 给元素加loading背景。也可以自己定制loading的css
