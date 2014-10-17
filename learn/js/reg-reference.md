@@ -140,6 +140,7 @@ Lookaround 参考教程：http://www.regular-expressions.info/lookaround.html
 
 ## 更多资源
 * [正则简明参考](http://javascript.info/tutorial/regular-expressions-javascript)
+* 死磕JavaScript正则表达式系列 [1](http://www.html-js.com/article/1723) [2](http://www.html-js.com/article/1726) [3](http://www.html-js.com/article/1730) [4](http://www.html-js.com/article/1948)
 
 
 ## 参考

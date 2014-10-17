@@ -123,6 +123,7 @@
     * [Impress.js](https://developer.cdn.mozilla.net/media/uploads/demos/b/a/bartaz/54e3827142e4149a5c01db64c9517c84/impressjs_1333223745_demo_package/index.html#/bored) 各种旋转，和奇特的体验
     * [fullPage](http://alvarotrigo.com/fullPage) 全屏显示。用滚轮来翻页 
     * [Intro.js](http://usablica.github.io/intro.js/) 用来介绍网站的功能很不错
+* [AnythingZoomer](https://github.com/CSS-Tricks/AnythingZoomer/) 放大镜功能
 * css相关
     * [prefixfree](https://github.com/LeaVerou/prefixfree/) 用了它，写css时，就不需要加浏览器的前缀了
 * 其他
