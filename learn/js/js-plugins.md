@@ -130,3 +130,7 @@
     * [nouislider](http://refreshless.com/nouislider/) 用滚动条来设置/控制（音量等）
     * [blockUI](http://jquery.malsup.com/block/) 给元素加loading背景。也可以自己定制loading的css
     * [Ink](http://zurb.com/ink/) 响应式html邮件框架
+    * [color-animation](http://www.bitstorm.org/jquery/color-animation/) jquery的颜色渐变动画插件。jquery的动画不支持颜色值的变化。改库提供了这个支持。
+
+## bootstrap 免费皮肤
+* [AdminLTE](http://www.almsaeedstudio.com/) (github)[https://github.com/almasaeed2010/AdminLTE]
