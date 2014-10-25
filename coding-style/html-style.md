@@ -61,7 +61,18 @@
 ## <a name='other'>其他</a>
 * 重要图片必须加上alt属性; 给重要的元素和截断的元素加上title
 * 元素属性使用双引号
-* html的元素，属性，值，css选择器，选择器的属性和值使用小写字母    
+* html的元素，属性，值，css选择器，选择器的属性和值使用小写字母
+* 在页面模块的开始和结束加注释。如：
+```
+<!-- 幻灯 start -->
+<div class="slide">...</div>
+<!-- 幻灯 end -->
+
+<!-- loding弹出层 start -->
+<div class="loding">...</div>
+<!-- loding弹出层 end -->
+
+```    
 [返回顶部](#TOC)
 
 ## <a name='reference'>参考</a>
