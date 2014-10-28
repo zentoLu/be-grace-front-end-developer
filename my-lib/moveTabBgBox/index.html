@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+    ul {
+        list-style: none;
+    }
+    .clearfix:before,
+    .clearfix:after {
+        content: " ";
+        display: table;
+    }
+    .clearfix:after {
+        clear: both;
+    }
+    .clearfix {
+        *zoom: 1;
+    }
+    ul {
+        margin: 0;
+        padding: 0;
+    }
+    .tab-box {
+        width: 500px;
+        margin: 100px auto;
+        border: 1px solid #ddd;
+    }
+    .tab-box .tab-head {
+        font-size: 14px;
+        height: 30px;
+        line-height: 30px;
+        border-bottom: 1px solid #ddd;
+        background: #E6F1F6;
+    }
+    .tab-box .tab-title {
+        float: left;
+        margin: 0;
+        margin-left: 15px;
+    }
+    .tab-box .tab-wrap {
+        float: right;
+        margin-right: 15px;
+        position: relative;
+    }
+    .tab-box .tab-wrap li {
+        position: relative;
+        z-index: 11;
+        float: left;
+        height: 100%;
+        padding: 0 10px;
+        font-size: 14px;
+        margin-right: 15px;
+    }
+    .tab-box .tab-active {
+        color: #fff;
+    }
+    .tab-box .active-tab-bg {
+        position: absolute;
+        z-index: 10;
+        left: 0;
+        top: 0;
+        height: 100%;
+        background: #0ff;
+    }
+    .tab-box .tab-body {
+        height: 100px;
+    }
+    </style>
+</head>
+
+<body>
+    <div class="tab-box">
+        <div class="tab-head clearfix">
+            <h3 class="tab-title">Demo</h3>
+            <div class="tab-wrap clearfix">
+                <ul class="tab-wrap clearfix">
+                    <li class="tab-active">tab1</li>
+                    <li class="">longTab</li>
+                    <li class="">2</li>
+                </ul>
+                <div class="active-tab-bg"></div>
+            </div>
+        </div>
+        <div class="tab-body">
+            <div class="tab-content">tab1 content</div>
+            <div class="tab-content" style="display:none;">longTab content</div>
+            <div class="tab-content" style="display:none;">2 content</div>
+        </div>
+    </div>
+    <script src="http://cdn.staticfile.org/jquery/1.11.1-rc2/jquery.js"></script>
+    <script>
+    $(document).ready(function() {
+        var tabBox = {
+            init: function() {
+                var $el = this.$el;
+                var $tabs = $el.find('.tab-wrap li');
+                var $tabConts = $el.find('.tab-content');
+                var $tabBg = $el.find('.active-tab-bg');
+                var $activeTab = $tabs.filter('.tab-active');
+                $tabBg.width($activeTab.outerWidth()).css('left', $activeTab.position().left + 'px');
+                $tabs.hover(function() {
+                    var $this = $(this);
+                    if (!$this.hasClass('tab-active')) {
+                        $tabBg.clearQueue();
+                        var index = $this.index();
+                        var $activeCont = $tabConts.eq(index);
+                        $activeCont.show().siblings().hide();
+                        $tabBg.animate({
+                            'left': $this.position().left,
+                            'width': $this.outerWidth()
+                        }, {
+                            done: function() {
+                                if (!$tabBg.is(':animated')) {
+                                    $this.addClass('tab-active').siblings().removeClass('tab-active');
+                                }
+                            }
+                        });
+                    }
+                })
+            },
+            $el: $('.tab-box')
+        }
+
+        tabBox.init();
+    });
+    </script>
+</body>
+
+</html>
