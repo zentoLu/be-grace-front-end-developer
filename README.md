@@ -21,6 +21,7 @@
 * [popup](https://github.com/iamjoel/popup) 弹出层组件。兼容 Firefox，Chrome，IE6+。
 * [ractive-paging](https://github.com/iamjoel/ractive-paging) 基于ractive的分页组件。不兼容IE6。
 * [number-controller](https://github.com/iamjoel/number-controller) 基于jquery的输入框中输入数字，左右两侧有加减来调节数字大小的组件。兼容 Firefox，Chrome，IE6+。
+* [jquery-linkage-select](https://github.com/iamjoel/jquery-linkage-select) 基于jquery的联动下拉框组件
 
 
 [![Analytics](https://ga-beacon.appspot.com/UA-51355680-1/front-end-resource/readme)](https://github.com/igrigorik/ga-beacon)
