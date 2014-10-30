@@ -1,6 +1,7 @@
 # HTML
 * [HTML是神马](what-is-html.md)
 * [标签和属性](html-tag-and-attr.md)
+* [注释](comment.md)
 * [HTML字符实体](html-entities.md)
 * [DOCTYPE和渲染模式](quirks-mode-and-standards-mode.md)
 * [网页无障碍](accessibility.md)
