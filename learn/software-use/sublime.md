@@ -92,6 +92,7 @@ https://sublime.wbond.net/browse/popular
 ### 编辑
 * `Ctrl+D`: 选中单词。多次`Ctrl+D`可选择多个，然后可以进行批量的编辑
 * `Ctrl+H`: 替换
+* `Ctrl+Shift+A`: 在html文件中，选中标签的内容
 * `Ctrl+ENTER`: 在当前行的下一行创建
 * `Ctrl+SHIFT+ENTER`: 在当前行的上一行创建
 * `Ctrl+鼠标单击`:多点同时编辑
