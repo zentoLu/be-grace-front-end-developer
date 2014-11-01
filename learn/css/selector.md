@@ -10,6 +10,7 @@
 	* [属性选择器](#)
 * [选择器权重](#selector-weight)
 * [选择器的读取顺序](#match-rule)
+* 选择器的浏览器兼容性 http://kimblim.dk/css-tests/selectors/
 
 ## <a name='basic'>基本选择器</a>
 基本选择器是css中使用最频繁，最基础，也是CSS中最早定义的选择器。兼容主流浏览器(IE6+,FF,Chrome等)。
