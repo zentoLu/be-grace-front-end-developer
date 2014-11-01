@@ -19,6 +19,11 @@
  * [bowser](https://github.com/ded/bowser) 浏览器探测
  * [BigDecimal.js](https://github.com/dtrebbien/BigDecimal.js) 提高精度的数字操作
 
+## 让一些旧浏览器变牛逼的库
+* [Selectivizr](https://github.com/keithclark/selectivizr)  让IE 6-8支持如下的css3选择器    
+![Selectivizr支持的css3选择器](md-img/Selectivizr-support.png)
+
+
 ****
 ##以下均依赖jquery
 * 幻灯
