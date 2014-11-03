@@ -63,7 +63,7 @@
     * [有字库](www.youziku.com) 中文web字库
     * [字体（视巨网）](http://www.ssjee.com/forum.php?mod=forumdisplay&fid=55&filter=typeid&typeid=12&sortid=6)
     * [在线icon制作](http://www.xiconeditor.com/)
-    * [分享按钮](http://www.jiathis.com/)
+    * [JiaThis](http://www.jiathis.com/) 分享按钮
 
 * demo预览网站
     * [Runjs](http://runjs.cn/)
