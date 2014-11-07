@@ -52,7 +52,7 @@ id会带来的两个副作用
 * 选项卡 tab
 * 标题 head/title
 * 列表 content
-* 内容 list
+* 内容 list/item
 * 表格 table
 * 表单 form
 * 热点 hot
@@ -71,6 +71,8 @@ id会带来的两个副作用
 * 结果 result
 * 按钮 button
 * 输入 input
+* 用户状态（关注数，喜欢数） user-status
+* 用户头像 avatar
 
 
 ## 参考
