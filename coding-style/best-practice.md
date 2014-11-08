@@ -71,8 +71,10 @@ id会带来的两个副作用
 * 结果 result
 * 按钮 button
 * 输入 input
-* 用户状态（关注数，喜欢数） user-status
-* 用户头像 avatar
+* 个人中心
+	* 用户状态（关注数，喜欢数） user-status
+	* 用户头像 avatar
+	* 徽章  badge
 
 
 ## 参考
