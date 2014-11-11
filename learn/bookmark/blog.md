@@ -11,3 +11,6 @@
 * [gbin1](http://www.gbin1.com/)
 * [A list Apart](http://alistapart.com/topics):关于做网站的一些文章
 * [前端乱炖](http://www.html-js.com/)
+* [开发者头条](http://toutiao.io/)
+* [paul Irish](http://www.paulirish.com/) Moderinizr,Yeoman的开发者之一，志于make www fun。
+* [Lea Verou](http://lea.verou.me/) computer scientist / web standards geek / front-end developer / web designer / speaker / author
