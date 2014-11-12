@@ -75,5 +75,10 @@ Firefox，Chrome，IE等，如果还要兼容IE6，那还要用IETester。
 ## 熟悉多门后台语言
 nodejs是肯定要会的。其他，像Python，Ruby，Go都可以玩一下～
 
+## 其他
+* 有牛逼的个人网站
+* 有受欢迎的的个人博客
+* 有star数很多的项目
+
 
 [![Analytics](https://ga-beacon.appspot.com/UA-51355680-1/front-end-resource/readme)](https://github.com/igrigorik/ga-beacon)
