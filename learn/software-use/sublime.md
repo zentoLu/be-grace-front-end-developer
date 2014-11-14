@@ -67,6 +67,12 @@ HTML5语法高亮
 
 ### [GitGutter](https://github.com/jisaacks/GitGutter) 在文件的行号旁边显示文件的修改状态
 
+### AutoFileName
+文件路径与名称的补全
+
+### 更多
+http://ipestov.com/the-best-plugins-for-sublime-text/
+
 ### sulime 插件排行
 https://sublime.wbond.net/browse/popular
 

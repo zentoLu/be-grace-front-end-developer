@@ -69,6 +69,7 @@
     * [imagesLoaded](http://desandro.github.io/imagesloaded/) 选取的图片都加载好后执行回调
 
 * 表单验证
+    * [jquery-validation](https://github.com/jzaefferer/jquery-validation)
     * [jQuery-Validation-Engine](http://posabsolute.github.io/jQuery-Validation-Engine/)
 
 * 美化表单元素
