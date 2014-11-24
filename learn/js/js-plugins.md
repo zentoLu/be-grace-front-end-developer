@@ -23,6 +23,9 @@
 * [Selectivizr](https://github.com/keithclark/selectivizr)  让IE 6-8支持如下的css3选择器    
 ![Selectivizr支持的css3选择器](md-img/Selectivizr-support.png)
 
+## 选择器增强
+* [Lining.js](https://github.com/zmmbreeze/lining.js) 让浏览器实现类似`::nth-line(), ::nth-last-line()`的效果
+
 
 ****
 ##以下均依赖jquery
