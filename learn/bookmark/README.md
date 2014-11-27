@@ -1,6 +1,7 @@
 * 参考
     * [w3school](http://www.w3school.com.cn/):html,css,js等各种参考
     * [W3schools](http://w3schools.com/):较之w3school界面更华丽
+    * [w3cschool cc](http://www.w3cschool.cc/) 类似W3schools，内容也很丰富 中文的
     * [webplatform](http://docs.webplatform.org/wiki/tutorials):学习最新的web技术
     * [MDN](https://developer.mozilla.org/en-US/):mozilla developer network
     * [html5bookmarks](http://html5bookmarks.com/):各种html5资源的网站收藏
@@ -18,8 +19,6 @@
     * [dingus](http://daringfireball.net/projects/markdown/dingus):markdown转化成html
     * [yehg](http://yehg.net/encoding/index.php):字符编码转换
     * [colorschemedesigner](http://colorschemedesigner.com/): 网站配色
-
-
 
 *  网站架构
     *  [BEM](http://bem.info/method/):构建可维护，高度重用的网站的指导
@@ -40,10 +39,11 @@
     * [jsbin](http://jsbin.com/)
     * [gist](https://gist.github.com/)  可以写一些代码片段
 
-*  订阅
+* 订阅
     * [邮件订阅](mail-subscribe.md)
     * [播客](podcast.md)
     * [博客](blog.md)
+    * [开发者头条](http://toutiao.io/)
 
 * 设计
     * [dribbble](http://dribbble.com/)
