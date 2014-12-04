@@ -12,5 +12,8 @@
 * [A list Apart](http://alistapart.com/topics):关于做网站的一些文章
 * [前端乱炖](http://www.html-js.com/)
 * [开发者头条](http://toutiao.io/)
+* [徐飞](https://github.com/xufei/blog/issues/) 挺多关于Angular的东东
 * [paul Irish](http://www.paulirish.com/) Moderinizr,Yeoman的开发者之一，志于make www fun。
 * [Lea Verou](http://lea.verou.me/) computer scientist / web standards geek / front-end developer / web designer / speaker / author
+* [Adam Morse](http://mrmrs.cc/) A designer, who trying to make the web as fast as possible, highly readable, 100% responsive, and easy to navigate.
+* [csswizardry](http://csswizardry.com/) 有很多不错的关于css的东西。比如[code smells in css](http://csswizardry.com/2012/11/code-smells-in-css/)
