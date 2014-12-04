@@ -35,6 +35,7 @@
     * [cycle2](http://jquery.malsup.com/cycle2/) 普通的幻灯，竟然不支持垂直滚动。。。
     * [jcarousel](http://sorgalla.com/jcarousel/) 普通的幻灯，不兼容IE6
     * [reveal](https://github.com/hakimel/reveal.js) 3d滚动。做ppt相当不错
+    * [nodePPT](https://github.com/ksky521/nodePPT) 国人做的，做ppt也相当不错。有些方面比 reveal做的还好。顶！
     * [roundabout](https://github.com/fredleblanc/roundabout) 3d切换，看的后面图片的边
 * 跑马灯
     * [jQuery.Marquee](https://github.com/aamirafridi/jQuery.Marquee)
