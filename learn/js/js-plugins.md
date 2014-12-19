@@ -145,6 +145,7 @@
     * [color-animation](http://www.bitstorm.org/jquery/color-animation/) jquery的颜色渐变动画插件。jquery的动画不支持颜色值的变化。改库提供了这个支持。
     * [simple-hint](https://github.com/catc/simple-hint) 提示框架,靠css做的
     * [dotdotdot](https://github.com/BeSite/jQuery.dotdotdot) 文字溢出时，添加在文字末尾加省略号
+    * [性能测试](http://benchmarkjs.com/)
 
 ## bootstrap 免费皮肤
 * [AdminLTE](http://www.almsaeedstudio.com/) (github)[https://github.com/almasaeed2010/AdminLTE]
