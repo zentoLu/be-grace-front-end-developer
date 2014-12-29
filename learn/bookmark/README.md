@@ -44,6 +44,7 @@
     * [播客](podcast.md)
     * [博客](blog.md)
     * [开发者头条](http://toutiao.io/)
+    * [编程狂人](http://www.tuicool.com/mags) 行业技术周刊
 
 * 设计
     * [dribbble](http://dribbble.com/)
@@ -52,6 +53,8 @@
     * [awwwards](http://www.awwwards.com/) 做的很好看的网站汇总
     * [站酷](http://www.zcool.com.cn/)
     * [Type is beautiful](http://www.typeisbeautiful.com/) 文字设计和视觉文化
+    * [配色网](http://www.peise.net/tools/web/) 配色相关资源
+
 
 * 资源
     * [findIcons](http://findicons.com/ ) : icon搜索引擎
@@ -64,6 +67,11 @@
     * [字体（视巨网）](http://www.ssjee.com/forum.php?mod=forumdisplay&fid=55&filter=typeid&typeid=12&sortid=6)
     * [在线icon制作](http://www.xiconeditor.com/)
     * [JiaThis](http://www.jiathis.com/) 分享按钮
+    * [jsfuck](http://www.jsfuck.com/) 用`[],!`等来混淆代码
+    * [html5index](http://html5index.org/) html5方法参考
+    * [飞屋收藏夹](http://www.ifeiwu.com/urls.php)
+    * [favicon](http://www.favicon.cc/) 做网站icon
+
 
 * demo预览网站
     * [Runjs](http://runjs.cn/)
