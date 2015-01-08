@@ -40,6 +40,7 @@
 * 跑马灯
     * [jQuery.Marquee](https://github.com/aamirafridi/jQuery.Marquee)
 * 弹出框
+    * [Magnific-Popup](https://github.com/dimsemenov/Magnific-Popup) 兼容PC，Mobile。还不错，有5k+的star
     * [layer](https://github.com/sentsin/layer) 国人开发的，兼容ie6+。不喜欢其调用方式。
 * 浏览图片
     * [fancybox](http://fancyapps.com/fancybox/) 弹出查看图片，视屏等等 [demo](http://fancyapps.com/fancybox/demo/)
