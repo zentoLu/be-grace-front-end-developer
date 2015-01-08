@@ -150,6 +150,8 @@
     * [卡片翻转效果](http://jonraasch.com/blog/quickflip-jquery-plugin) 兼容性可以。写的比较简单：1，只支持x方向翻转 2,类名都是规定好的 3，只能被调用一次。 需要改写一下。我的改进版见[这里](https://github.com/iamjoel/be-grace-front-end-developer/tree/master/my-lib/flip/quickflip.js)
     * [卡片翻转效果2](http://nnattawat.github.io/flip/) 可以支持多个方向的。但不支持
     * [turn.js](https://github.com/blasten/turn.js) 做一本书，带漂亮的翻页的效果
+    * [switchery](http://abpetkov.github.io/switchery/) ios7风格的开关组价
+    * [midnight.js](https://github.com/Aerolab/midnight.js) 文字颜色随着背景变，屌炸了
 
 ## bootstrap 免费皮肤
 * [AdminLTE](http://www.almsaeedstudio.com/) (github)[https://github.com/almasaeed2010/AdminLTE]
