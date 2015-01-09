@@ -36,6 +36,9 @@
 * 《测试驱动的javascript开发》
 * 《了不起的node.js》
 * 《深入浅出node.js》
+
+## 文章
+* [Js patterns](http://shichuan.github.io/javascript-patterns/) 深入浅出
 　
 ## 参考
 http://javascript.ruanyifeng.com/
