@@ -24,6 +24,7 @@
 	* [recess](https://github.com/twitter/recess) Twitter's CSS Hinter [grunt-recess](https://www.npmjs.org/package/grunt-recess)
 	* [csslint](csslint.md)
 * html
+	* [html-inspector](https://github.com/philipwalton/html-inspector) a highly-customizable, code quality tool to help you (and your team) write better markup.
 	* [HTMLHint](https://github.com/yaniswang/HTMLHint)
 	* [w3c validation](http://validator.w3.org/nu/)
 

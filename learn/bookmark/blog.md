@@ -18,3 +18,5 @@
 * [Adam Morse](http://mrmrs.cc/) A designer, who trying to make the web as fast as possible, highly readable, 100% responsive, and easy to navigate.
 * [csswizardry](http://csswizardry.com/) 有很多不错的关于css的东西。比如[code smells in css](http://csswizardry.com/2012/11/code-smells-in-css/)
 * [dailyjs](http://dailyjs.com/)
+* [通过NPM模块重新组织Node.js知识(老雷)](http://aroundnode.org/)
+* [草依山的Javascript世界](http://jser.me/)
