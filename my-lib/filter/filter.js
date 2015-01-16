@@ -22,8 +22,10 @@
                 url = url(this);
             }
             var searchStr = this.getSerchStr(this);
+            url = url + searchStr;
+            url = encodeURI(url);
             $.ajax({
-                url: url + searchStr
+                url: url
             }).done(function(data) {
                 self.render(data, self);
             });
