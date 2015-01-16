@@ -72,6 +72,10 @@
     * [飞屋收藏夹](http://www.ifeiwu.com/urls.php)
     * [favicon](http://www.favicon.cc/) 做网站icon
 
+* cheatsheet
+* [YouMightNotNeedjQuery](https://github.com/HubSpot/YouMightNotNeedjQuery)
+
+
 
 * demo预览网站
     * [Runjs](http://runjs.cn/)
