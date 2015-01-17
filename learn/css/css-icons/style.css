@@ -1,0 +1,15 @@
+body{
+	background:#ccc;
+	padding:20px;
+}
+
+.icons{
+	font-size: 0;
+}
+
+.wrap{
+	box-sizing: border-box;
+	display: inline-block;
+	width: 10%;
+	padding-right: 10px;
+}
