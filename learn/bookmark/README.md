@@ -12,13 +12,18 @@
     * [jsonlint](http://jsonlint.com/):验证json
     * [cssTidy](http://www.css88.com/tool/csstidy/):css整理与压缩
     * [html 标签检查](http://i.links.cn/checkhtmltag.asp)
-    * [smush.It](http://www.smushit.com/ysmush.it/):无损压缩图片
     * [RegExr](http://gskinner.com/RegExr/):正则测试
-    * [ish](http://bradfrostweb.com/demo/ish/#):响应式设计测试(只能测试几个尺寸以及制定宽度)
-    * [responsive](http://mattkersley.com/responsive/):响应式设计测试。(能测试几个固定的尺寸。所有分辨率的一起显示)
     * [dingus](http://daringfireball.net/projects/markdown/dingus):markdown转化成html
     * [yehg](http://yehg.net/encoding/index.php):字符编码转换
-    * [colorschemedesigner](http://colorschemedesigner.com/): 网站配色
+    * 性能优化相关
+        * [智图](http://zhitu.tencent.com/) 腾讯做的图片优化平台
+        * [smush.It](http://www.smushit.com/ysmush.it/) 无损压缩图片
+    * 响应式
+        * [ish](http://bradfrostweb.com/demo/ish/#):响应式设计测试(只能测试几个尺寸以及制定宽度)
+        * [responsive](http://mattkersley.com/responsive/):响应式设计测试。(能测试几个固定的尺寸。所有分辨率的一起显示)
+    * 设计
+        * [colorschemedesigner](http://colorschemedesigner.com/): 网站配色
+
 
 *  网站架构
     *  [BEM](http://bem.info/method/):构建可维护，高度重用的网站的指导
