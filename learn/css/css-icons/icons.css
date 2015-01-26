@@ -1,47 +1,61 @@
-.icon{
-	position: relative;
-	display: block;
-	width: 34px;
-	height: 34px;
-}
-.arrow.icon{
-	display: block;
-	height: 24px;
-	width: 24px;
-	border: 2px solid #fff;
-	border-right-color: transparent;
-	border-bottom-color: transparent;
-}
-.left.arrow.icon{
-	webkit-transform: rotate(-45deg);
-	-moz-transform: rotate(-45deg);
-	-ms-transform: rotate(-45deg);
-	-o-transform: rotate(-45deg);
-	transform: rotate(-45deg);
-}
-.top.arrow.icon{
-	webkit-transform: rotate(45deg);
-	-moz-transform: rotate(45deg);
-	-ms-transform: rotate(45deg);
-	-o-transform: rotate(45deg);
-	transform: rotate(45deg);
+.icon {
+    position: relative;
+    display: block;
+    width: 34px;
+    height: 34px;
 }
 
-.cicle.icon{
+.rect.icon{
+	border: 2px solid #fff;
+}
+
+.fill.icon{
 	background-color: #fff;
-	border-radius: 34px;
 }
-.sector.icon{
-	overflow: hidden;
+.arrow.icon {
+    display: block;
+    height: 24px;
+    width: 24px;
+    border: 2px solid #fff;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
 }
-.sector.icon:before{
-	position: absolute;
-	top: 20px;
-	left: -20px;
-	content: ' ';
-	height: 100%;
-	width: 100%;
-	border: 4px solid transparent;
-	border-radius: 25px;
-	box-shadow: 0 0 0 2px #fff;
+.left.arrow.icon {
+    webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+.top.arrow.icon {
+    webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+.tiny.angle.left.arrow.icon {
+    -webkit-transform: skew(-10deg, -20deg);
+    -moz-transform: skew(-10deg, -20deg);
+    -ms-transform: skew(-10deg, -20deg);
+    -o-transform: skew(-10deg, -20deg);
+    transform: skew(-10deg, -20deg);
+}
+.cicle.icon {
+    background-color: #fff;
+    border-radius: 34px;
+}
+.sector.icon {
+    overflow: hidden;
+}
+.sector.icon:before {
+    position: absolute;
+    top: 20px;
+    left: -20px;
+    content: ' ';
+    height: 100%;
+    width: 100%;
+    border: 4px solid transparent;
+    border-radius: 25px;
+    box-shadow: 0 0 0 2px #fff;
 }
