@@ -3,14 +3,117 @@
     display: block;
     width: 34px;
     height: 34px;
+    color: #fff;
 }
-
-.rect.icon{
-	border: 2px solid #fff;
+.icon:before, .icon:after{
+	position: absolute;
+    content: ' ';
 }
-
-.fill.icon{
-	background-color: #fff;
+.line.icon {
+    height: 2px;
+    background: #fff;
+}
+.point-arrow.icon{
+	border-top: 2px solid #fff;
+	display: inline-block;
+	vertical-align: middle;
+}
+.point-arrow.icon:before{
+	width: 20px;
+	border-top: 1px solid #fff;
+    border-right: 1px solid #fff;
+    left: 10px;
+    height: 20px;
+    transform: rotate(45deg);
+    top: -12px;
+}
+.equal.icon {
+    border-top: 2px solid #fff;
+	display: inline-block;
+	height: 0;
+	box-shadow: 0 -6px 0 0;
+}
+.plus.icon {
+    border-top: 2px solid #fff;
+	display: inline-block;
+	vertical-align: middle;
+}
+.plus.icon:before {
+	border-top: 2px solid #fff;
+	display: inline-block;
+	vertical-align: middle;
+    transform: rotate(90deg);
+    width: 100%;
+}
+.rect.icon {
+    border: 2px solid #fff;
+}
+.round.rect.icon {
+    border-radius: 5px;
+}
+.skew.rect.icon {
+    /* x(正值为左),y(正值为上) */
+    
+    transform: skew(30deg, 20deg);
+    -ms-transform: skew(30deg, 20deg);
+    /* IE 9 */
+    
+    -webkit-transform: skew(30deg, 20deg);
+    /* Safari and Chrome */
+    
+    -o-transform: skew(30deg, 20deg);
+    /* Opera */
+    
+    -moz-transform: skew(30deg, 20deg);
+    /* Firefox */
+}
+.rotate.rect.icon {
+    webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+.oval.icon {
+	width: 50px;
+    border: 2px solid #fff;
+    border-radius: 50px/38px;
+}
+.cicle.icon {
+    border: 2px solid #fff;
+    border-radius: 34px;
+}
+.trigle.icon {
+    border-bottom: 2px solid #fff;
+    width: 32px;
+    overflow: hidden;
+}
+.trigle.icon:before {
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    border: 2px solid #fff;
+    transform: rotate(45deg);
+    top: 23px;
+    left: 4px;
+}
+.fill.trigle.icon {
+    width: 0;
+    height: 0;
+    border-width: 8px 0 8px 12px;
+    border-style: solid;
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+    background-color: transparent;
+    border-left-color: #fff;
+    border-right-color: #fff;
+    ;
+}
+.fill.trigle.icon:before {
+    display: none;
+}
+.fill.icon {
+    background-color: #fff;
 }
 .arrow.icon {
     display: block;
@@ -39,11 +142,7 @@
     -moz-transform: skew(-10deg, -20deg);
     -ms-transform: skew(-10deg, -20deg);
     -o-transform: skew(-10deg, -20deg);
-    transform: skew(-10deg, -20deg);
-}
-.cicle.icon {
-    background-color: #fff;
-    border-radius: 34px;
+    transform: skew(0, 40deg) rotate(-62deg) translate(8px, 10px);
 }
 .sector.icon {
     overflow: hidden;
@@ -52,10 +151,28 @@
     position: absolute;
     top: 20px;
     left: -20px;
-    content: ' ';
     height: 100%;
     width: 100%;
     border: 4px solid transparent;
     border-radius: 25px;
-    box-shadow: 0 0 0 2px #fff;
+	box-shadow: inset 0 0 0 2px;
+}
+
+.list.icon {
+    color: #fff;
+    width: 4px;
+    height: 4px;
+    box-shadow: 0 -8px 0 0, 0 8px 0 0;
+    background-color: #fff;
+}
+.list.icon:before {
+    width: 18px;
+    height: 4px;
+    left: 8px;
+    box-shadow: 0 -8px 0 0, 0 8px 0 0;
+    background-color: #fff;
+}
+.multi.sector.icon:before {
+	box-shadow: inset 0 0 0 2px,0px 0 0 2px;
+	background-color: transparent;
 }

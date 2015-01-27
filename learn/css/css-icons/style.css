@@ -11,6 +11,6 @@ body{
 .wrap{
 	box-sizing: border-box;
 	display: inline-block;
-	width: 10%;
+	width: 5%;
 	padding-right: 10px;
 }
