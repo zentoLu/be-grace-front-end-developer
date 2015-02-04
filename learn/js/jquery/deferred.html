@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <title>defferred</title>
-    <script src="../../vendor/jquery.min.js"></script>
+    <script src="../../../vendor/jquery.min.js"></script>
 </head>
 
 <body>
@@ -56,6 +56,30 @@
 		function fail(data){
         	console.log('fail:%s times', data.times);
         }
+
+
+        // promise chain
+        function thingA () {
+            var dfd = $.Deferred();
+            setTimeout(function() {
+                console.log('A');
+                dfd.resolve('A');
+            }, 1000);
+            return dfd.promise();
+        }
+        function thingB (data) {
+            var dfd = $.Deferred();
+            setTimeout(function() {
+                console.log(data + 'B');
+                dfd.resolve(data + 'B');
+            }, 1000);
+            return dfd.promise();
+        }
+        function thingC (data) {
+            console.log(data + 'C');
+        }
+        // then(done, fail,progressFilter)
+        thingA().then(thingB).then(thingC);
     });
     </script>
 </body>
