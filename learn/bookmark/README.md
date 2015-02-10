@@ -79,9 +79,13 @@
     * [favicon](http://www.favicon.cc/) 做网站icon
 
 * cheatsheet
-* [YouMightNotNeedjQuery](https://github.com/HubSpot/YouMightNotNeedjQuery)
+    * [YouMightNotNeedjQuery](https://github.com/HubSpot/YouMightNotNeedjQuery)
 
-
+* 会议
+    * [前端圈](http://fequan.com/) 为广州web前端人员量身打造一个良好的生态圈
+    * [html5峰会](http://www.html5dw.com/)
+    * [Web Rebuild](http://www.webrebuild.org/)
+        * [2014年会议视频](http://daxue.qq.com/content/online/id/1669)
 
 * demo预览网站
     * [Runjs](http://runjs.cn/)
