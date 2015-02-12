@@ -130,6 +130,10 @@ p{
 .ff-yahei{
 	font-family: tahoma,arial,"STXihei","Microsoft YaHei New", "Microsoft Yahei", "微软雅黑", "宋体", SimSun;
 }
+/* 普通黑体 */
+.ff-hei{
+    font-family: tahoma,arial,"STXihei",SimHei,"Microsoft YaHei New", "Microsoft Yahei", "微软雅黑", "宋体", SimSun;
+}
 .ff-song{
 	font-family: tahoma,arial,"宋体", SimSun;
 }
@@ -141,9 +145,6 @@ p{
 }
 .fc-999{
 	color: #999;
-}
-.fc-main{
-
 }
 .fs-20{
 	font-size: 20px;
@@ -193,7 +194,6 @@ p{
   -khtml-user-select: none;
   -webkit-user-select: none;
   -o-user-select: none;
-
 }
 /*tools end*/
 
