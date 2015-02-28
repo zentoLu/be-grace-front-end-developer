@@ -33,7 +33,8 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 ```
 其中http-equiv=”X-UA-Compatible”这个是IE8的专用标记，是用来指定Internet Explorer 8 浏览器模拟某个特定版本IE浏览器的渲染方式，以此来解决IE浏览器的兼容问题。    
-这代码的意思是
+这代码的意思是    
+
 1. 如果支持Google Chrome Frame(GCF)。则使用GCF渲染
 1. 如果系统安装ie8或以上版本，则使用最高版本ie渲染
 
@@ -56,8 +57,8 @@ Google Chrome Frame是IE上一个让IE能调用Chrome来渲染页面的插件。
 ```
 [返回顶部](#TOC)
 
-## <a name='attr'>属性</a>、
-属性使用双引号
+## <a name='attr'>属性</a>
+属性使用双引号    
 [返回顶部](#TOC)
 
 ## <a name='bool-attr'>布尔值属性</a>
