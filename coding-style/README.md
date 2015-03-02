@@ -33,4 +33,5 @@
 ## 拓展阅读
 * [why-coding-style-matters](http://www.smashingmagazine.com/2012/10/25/why-coding-style-matters/)
 * [isobar 前端代码规范](http://coderlmn.github.io/code-standards/)
+* [书写具备一致风格、通俗易懂 JavaScript 的原则](https://github.com/rwaldron/idiomatic.js/tree/master/translations/zh_CN)
 
