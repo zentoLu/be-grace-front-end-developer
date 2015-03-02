@@ -12,9 +12,9 @@
 
 ## 我的代码风格
 下面是我的代码风格（beta），希望自己能遵循它
-* [js代码风格](javascript-style.md)
-* [css代码风格](css-style.md)
+* [html代码风格](html-style.md) [简洁版](html-style-simple.md)
 * [html代码风格](html-style.md)
+* [js代码风格](javascript-style.md)
 
 ## 代码风格检查工具
 检验代码是否符合了代码风格，可以用以下的工具

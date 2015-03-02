@@ -62,7 +62,7 @@ Google Chrome Frame是IE上一个让IE能调用Chrome来渲染页面的插件。
 [返回顶部](#TOC)
 
 ## <a name='bool-attr'>布尔值属性</a>
-有些属性不需要被设置，如 `disabled`,`checked`。因此，不要设置它。即使要设置也要符合[规范](http://www.whatwg.org/specs/web-apps/current-work/multipage/common-microsyntaxes.html#boolean-attributes)。如
+有些布尔值属性的值不需要被设置，如 `disabled`,`checked`。因此，不要设置它。即使要设置也要符合[规范](http://www.whatwg.org/specs/web-apps/current-work/multipage/common-microsyntaxes.html#boolean-attributes)。如
 
 ```
 <input type="text" disabled>
