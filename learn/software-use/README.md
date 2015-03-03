@@ -29,6 +29,9 @@
 ## Web调试工具
 * [fiddler](http://www.telerik.com/fiddler) 记录所有客户端和服务器的http和https请求，允许你监视，设置断点，修改输入输出数据。
 
+## 其他
+* [Clover](http://cn.ejie.me/) Windows上支持多标签的资源管理器。还支持添加书签功能。书签的快捷键与Chrome的一致。
+
 
 
 
