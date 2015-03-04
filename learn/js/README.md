@@ -1,5 +1,5 @@
 # javascript
-* javascript 语法 查看[这](javascript-basic.md)，或查看阮一峰的[教程](http://javascript.ruanyifeng.com/grammar/basic.html)，或[这](http://gitbookio.github.io/javascript/)
+* javascript 语法 查看[这](js-basic.md)，或查看阮一峰的[教程](http://javascript.ruanyifeng.com/grammar/basic.html)
 * 标准库
 	* [Object](stdlib/object.md)
 	* String
