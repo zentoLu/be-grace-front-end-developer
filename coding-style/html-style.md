@@ -100,5 +100,6 @@ Google Chrome Frame是IE上一个让IE能调用Chrome来渲染页面的插件。
 ## <a name='reference'>参考</a>
 * [github templates guide](https://github.com/styleguide/templates)
 * [google htmlcssguide](http://google-styleguide.googlecode.com/svn/trunk/htmlcssguide.xml)
-* http://www.zhihu.com/question/19963993    
+* http://www.zhihu.com/question/19963993
+* [网页头部的声明应该是用 lang="zh" 还是 lang="zh-cn"？](http://www.zhihu.com/question/20797118/answer/16809331)    
 [返回顶部](#TOC)
