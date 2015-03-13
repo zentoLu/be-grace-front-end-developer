@@ -12,8 +12,8 @@
 
 ## 我的代码风格
 下面是我的代码风格（beta），希望自己能遵循它
-* [html代码风格](html-style.md) [简洁版](html-style-simple.md)
-* [html代码风格](css-style.md) [简洁版](css-style-simple.md)
+* [HTML代码风格](html-style.md) [简洁版](html-style-simple.md)
+* [CSS代码风格](css-style.md) [简洁版](css-style-simple.md)
 * [js代码风格](javascript-style.md)
 
 ## 代码风格检查工具

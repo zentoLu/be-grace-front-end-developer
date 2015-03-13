@@ -38,6 +38,12 @@
 1. 如果支持Google Chrome Frame(GCF)。则使用GCF渲染
 1. 如果系统安装ie8或以上版本，则使用最高版本ie渲染
 
+让国内的双核浏览器用`webkit`的内核来渲染
+```
+<meta name="renderer" content="webkit">
+```
+目前只有[360浏览器](http://se.360.cn/v6/help/meta.html)支持此 <meta> 标签。希望更多国内浏览器尽快采取行动、尽快进入高速时代！
+
 Google Chrome Frame是IE上一个让IE能调用Chrome来渲染页面的插件。    
 [返回顶部](#TOC)
 

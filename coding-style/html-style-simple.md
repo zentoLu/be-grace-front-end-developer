@@ -20,11 +20,12 @@
 ## <a name="describe">注1</a>
 ```
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-cmn-Hans">
 <head>
 	<meta charset="UTF-8">
 	<title>Document</title>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="renderer" content="webkit">
 </head>
 ```
 
