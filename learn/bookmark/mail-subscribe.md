@@ -4,6 +4,7 @@
 * [奇舞周刊](http://www.75team.com/weekly/)
 * [InfoQ中国](http://www.infoq.com/cn/reginit.action)
 * [码农周刊](http://weekly.manong.io/)
+* [segmentfault](http://segmentfault.com/user/settings?tab=notify)
 
 英文的
 * [CSS Weekly](http://css-weekly.com/)
