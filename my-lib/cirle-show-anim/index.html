@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>circle show anim</title>
+    <style>
+    .wraps {
+        position: relative;
+        width: 100px;
+        height: 100px;
+        margin: 50px auto;
+        overflow: hidden;
+        font-size: 0;
+    }
+    
+    .wraps::after {
+        content: "";
+        background: #fff;
+        border-radius: 50%;
+        width: 80px;
+        height: 80px;
+        position: absolute;
+        top: 10px;
+        left: 10px;
+    }
+    
+    .wrap {
+        width: 50%;
+        height: 100%;
+        position: relative;
+        display: inline-block;
+        overflow: hidden;
+    }
+    
+    .circle {
+        position: absolute;
+        box-sizing: border-box;
+        width: 50px;
+        height: 100px;
+        background-color: #f00;
+    }
+    
+    .left.circle {
+        -webkit-transform-origin: 100% 50%;
+        transform-origin: 100% 50%;
+        border-radius: 50px 0 0 50px;
+        left: 0;
+        -webkit-animation: rotate-bg-1 4s infinite linear;
+        animation: rotate 4s infinite linear;
+        -webkit-transform: rotateZ(-180deg);
+        transform: rotateZ(-180deg);
+    }
+    
+    .right.circle {
+        -webkit-transform-origin: 0% 50%;
+        transform-origin: 0% 50%;
+        border-radius: 0 50px 50px 0;
+        right: 0;
+        -webkit-animation: rotate-bg-2 4s infinite linear;
+        animation: rotate 4s infinite linear;
+        -webkit-transform: rotateZ(-180deg);
+        transform: rotateZ(-180deg);
+
+    }
+    
+    @-webkit-keyframes rotate-bg-1{
+    	0% ,50%{
+            -webkit-transform: rotateZ(-180deg);
+            transform: rotateZ(-180deg);
+        }
+        100% {
+            -webkit-transform: rotateZ(0deg);
+            transform: rotateZ(0deg);
+        }
+    }
+    
+    @keyframes rotate-bg-1{
+    	0% ,50%{
+            -webkit-transform: rotateZ(-180deg);
+            transform: rotateZ(-180deg);
+        }
+        100% {
+            -webkit-transform: rotateZ(0deg);
+            transform: rotateZ(0deg);
+        }
+    }
+
+    
+    @-webkit-keyframes rotate-bg-2 {
+        0% {
+            -webkit-transform: rotateZ(-180deg);
+            transform: rotateZ(-180deg);
+        }
+        50%,100% {
+            -webkit-transform: rotateZ(0deg);
+            transform: rotateZ(0deg);
+        }
+    }
+
+    
+    @keyframes rotate-bg-2 {
+        0% {
+            -webkit-transform: rotateZ(-180deg);
+            transform: rotateZ(-180deg);
+        }
+        50%,100% {
+            -webkit-transform: rotateZ(0deg);
+            transform: rotateZ(0deg);
+        }
+    }
+
+    </style>
+</head>
+
+<body>
+	<!-- 参考 https://cssanimation.rocks/watch/ -->
+    <div class="wraps">
+        <div class="wrap">
+            <div class="left circle"></div>
+        </div>
+        <div class="wrap">
+            <div class="right circle"></div>
+        </div>
+    </div>
+</body>
+
+</html>
