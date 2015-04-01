@@ -7,8 +7,8 @@
     * [html5bookmarks](http://html5bookmarks.com/):各种html5资源的网站收藏
     * [js api](http://overapi.com/javascript/)
     * [html标准](http://www.whatwg.org/specs/web-apps/current-work/multipage/introduction.html#is-this-html5?) whatwg维护的持续更新的HTML标准
-    * [W3C规范翻译](http://www.w3.org/html/ig/zh/wiki/%E7%BF%BB%E8%AF%91) W3C中国小组翻译的
-    * [W3C中国小组主页](http://www.w3.org/html/ig/zh/wiki/Main_Page)
+    * [W3C规范翻译](http://www.w3.org/html/ig/zh/wiki/%E7%BF%BB%E8%AF%91) HTML5中文小组翻译的
+    * [HTML5中文小组主页](http://www.w3.org/html/ig/zh/wiki/Main_Page)
 
 * 工具
     * [jsonlint](http://jsonlint.com/):验证json
