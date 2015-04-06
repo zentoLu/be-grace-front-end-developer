@@ -21,5 +21,7 @@
 * [通过NPM模块重新组织Node.js知识(老雷)](http://aroundnode.org/)
 * [草依山的Javascript世界](http://jser.me/)
 * [前端外刊评论](http://zhuanlan.zhihu.com/FrontendMagazine)
+* [w3ctech](http://www.w3ctech.com/)
+* [前端De早读课](http://www.zaoduke.net/)
 
 
