@@ -34,7 +34,7 @@
 		* 生成项目的脚手架：Yo
 		* 任务管理：Grunt，Gulp
 	* 预处理语言
-		* Less,Sass
+		* Less,Sass（推荐Sass，因为有[compass](http://compass-style.org/))
 		* Coffee Script
 * 练好内功
 	* [html5](learn/html)
@@ -47,11 +47,12 @@
 	* 前端测试
 	* [代码风格/规范](coding-style)
 	* 各种设计模式和一些数据结构，算法
-* 开拓眼界，追随最新技术的脚步
+* 开拓眼界，追随最新技术的脚步。
 	* 邮件订阅
 	* 播客，播客订阅
 	* 参加各种技术的会
 	* 关注大牛们的动态
+	* 更多见[HOW TO KEEP UP TO DATE ON FRONT-END TECHNOLOGIES](http://uptodate.frontendrescue.org/)
 * 尽可能多的coding~，自省，重构
 
 [![Analytics](https://ga-beacon.appspot.com/UA-51355680-1/front-end-resource/readme)](https://github.com/igrigorik/ga-beacon)
