@@ -42,7 +42,7 @@
 * [responsive](http://mattkersley.com/responsive/) 响应式设计测试。能测试几个固定的尺寸。所有分辨率的一起显示
 
 ## 资源
-* 图标类
+* 图片类
     * [findIcons](http://findicons.com/ ) icon搜索引擎
     * [生成loading图标](http://preloaders.net/)
     * [在线icon制作](http://www.xiconeditor.com/)
