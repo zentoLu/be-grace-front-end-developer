@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>自定义单选</title>
+    <style>
+    body{
+    	background-color: #ddd;
+    }
+    .radio-wrap {
+        display: inline-block;
+        margin-right: 10px;
+        line-height: 26px;
+    }
+    /* chrome下 只要用下面的 css就可以搞定。
+    	其他浏览器都搞定不鸟：
+    		用 height: 0;隐藏不了radio button）。。。
+    		用 visibility: hidden; 或 display: none;的话，那虚类元素也显示不鸟
+    */
+    /*.customize-radio{
+			position: relative;
+			height: 0;
+			width: 10px;
+			border-right: none;
+			background-color: transparent;
+		}
+		.customize-radio::after{
+			content: '';
+			display: block;
+			position: absolute;
+			top: -11px;
+			width: 10px;
+			height: 10px;
+			border-radius: 5px;
+			border: 1px solid #f60;
+		}
+		.customize-radio:checked::after{
+			background-color: #f60;
+		}*/
+	.customize-radio{
+		display: none;
+	}
+    .customize-radio + label {
+        color: #292321;
+        font-size: 14px;
+    }
+
+    .customize-radio + label .radio-icon {
+    	display: inline-block;
+        width: 19px;
+        height: 19px;
+        margin: -1px 4px 0 0;
+        vertical-align: middle;
+        cursor: pointer;
+        -moz-border-radius: 50%;
+        border-radius: 50%;
+        border: 1px solid #fff;
+         -webkit-transition: background-color 0.4s linear;
+        -o-transition: background-color 0.4s linear;
+        -moz-transition: background-color 0.4s linear;
+        transition: background-color 0.4s linear;
+    }
+
+    .customize-radio:checked + label  .radio-icon {
+        background-color: #fff;
+    }
+
+    </style>
+</head>
+
+<body>
+    <div class="form-item">
+        <label for="">爱好:</label>
+        <div class="radio-wrap">
+            <input type="radio" class="customize-radio" name="habbie" id="h1">
+            <label for="h1"><span class="radio-icon"></span>爱好1</label>
+        </div>
+        <div class="radio-wrap">
+            <input type="radio" class="customize-radio" name="habbie" id="h2">
+            <label for="h2"><span class="radio-icon"></span>爱好2</label>
+        </div>
+        <div class="radio-wrap">
+            <input type="radio" class="customize-radio" name="habbie" id="h3">
+            <label for="h3"><span class="radio-icon"></span>爱好3</label>
+        </div>
+    </div>
+    <div class="note">只兼容IE9+</div>
+</body>
+
+</html>
