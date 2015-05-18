@@ -42,16 +42,19 @@
 		display: none;
 	}
     .customize-radio + label {
-        color: #292321;
+    	position: relative;
+    	display: inline-block;
         font-size: 14px;
+        padding-left: 25px;
     }
 
-    .customize-radio + label .radio-icon {
-    	display: inline-block;
+    .customize-radio + label:before {
+    	content: "";
+    	position: absolute;
+    	bottom: 3px;
+    	left: 0;
         width: 19px;
         height: 19px;
-        margin: -1px 4px 0 0;
-        vertical-align: middle;
         cursor: pointer;
         -moz-border-radius: 50%;
         border-radius: 50%;
@@ -62,7 +65,7 @@
         transition: background-color 0.4s linear;
     }
 
-    .customize-radio:checked + label  .radio-icon {
+    .customize-radio:checked + label:before {
         background-color: #fff;
     }
 
@@ -74,15 +77,15 @@
         <label for="">爱好:</label>
         <div class="radio-wrap">
             <input type="radio" class="customize-radio" name="habbie" id="h1">
-            <label for="h1"><span class="radio-icon"></span>爱好1</label>
+            <label for="h1">爱好1</label>
         </div>
         <div class="radio-wrap">
             <input type="radio" class="customize-radio" name="habbie" id="h2">
-            <label for="h2"><span class="radio-icon"></span>爱好2</label>
+            <label for="h2">爱好2</label>
         </div>
         <div class="radio-wrap">
             <input type="radio" class="customize-radio" name="habbie" id="h3">
-            <label for="h3"><span class="radio-icon"></span>爱好3</label>
+            <label for="h3">爱好3</label>
         </div>
     </div>
     <div class="note">只兼容IE9+</div>
