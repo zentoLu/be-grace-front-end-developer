@@ -1,0 +1,6 @@
+@import "compass/utilities/";
+
+@mixin clearfix(){
+    @include pie-clearfix();
+}
+
