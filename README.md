@@ -54,5 +54,6 @@
 	* 关注大牛们的动态
 	* 更多见[HOW TO KEEP UP TO DATE ON FRONT-END TECHNOLOGIES](http://uptodate.frontendrescue.org/)
 * 尽可能多的coding~，自省，重构
+	* [代码审查要做哪些](code-review.md)
 
 [![Analytics](https://ga-beacon.appspot.com/UA-51355680-1/front-end-resource/readme)](https://github.com/igrigorik/ga-beacon)
