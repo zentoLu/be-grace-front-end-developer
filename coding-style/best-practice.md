@@ -79,7 +79,7 @@ id会带来的两个副作用
 ## JS 中避免用 `ForEach`
 `ForEach` 有如下缺陷
 * 性能方面，不如 `for` 循环
-* 有副作用: 如果在 `ForEach` 中读/写了外部的变量
+* 可能会有副作用（非引用透明（Referential transparency））: `ForEach` 可能会依赖于外部变量或"状态"，如读/写了外部的变量
 * 该方法隐藏了这方法到底干什么，与 `some`, `filter`, `reduce`, `map` 这类的方法相比
 
 更详细的，见 [这里](http://aeflash.com/2014-11/avoid-foreach.html)
@@ -93,3 +93,4 @@ https://github.com/stubbornella/oocss/wiki
 * [apple pie](http://www.apppie.org/g)
 * http://smacss.com/book/
 * http://csswizardry.com/2014/08/css-guidelines-2-0-0/
+* [函数式编程初探](http://www.ruanyifeng.com/blog/2012/04/functional_programming.html)
