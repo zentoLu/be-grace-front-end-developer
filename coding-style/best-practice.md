@@ -76,6 +76,14 @@ id会带来的两个副作用
 	* 用户头像 avatar
 	* 徽章  badge
 
+## JS 中避免用 `ForEach`
+`ForEach` 有如下缺陷
+* 性能方面，不如 `for` 循环
+* 有副作用: 如果在 `ForEach` 中读/写了外部的变量
+* 该方法隐藏了这方法到底干什么，与 `some`, `filter`, `reduce`, `map` 这类的方法相比
+
+更详细的，见 [这里](http://aeflash.com/2014-11/avoid-foreach.html)
+
 
 ## 参考
 * http://nicolasgallagher.com/about-html-semantics-front-end-architecture/ oocss的作者写的
