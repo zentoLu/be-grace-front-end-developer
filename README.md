@@ -1,4 +1,7 @@
-# 成为一个体面的前端攻城狮
+<h1 align="center">做一个体面的前端攻城狮</h1>
+<p align="center">
+[![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/iamjoel/be-grace-front-end-developer?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
+</p>
 怎样算是个体面的前端攻城狮?     
 大概是，人人都觉得你很屌！
 
