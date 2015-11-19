@@ -12,6 +12,7 @@
 
 ## 我的代码风格
 下面是我的代码风格（beta），希望自己能遵循它
+* [通用规范](common.md)
 * [HTML代码风格](html-style.md) [简洁版](html-style-simple.md)
 * [CSS代码风格](css-style.md) [简洁版](css-style-simple.md)
 * [js代码风格](javascript-style.md)
@@ -34,4 +35,5 @@
 * [why-coding-style-matters](http://www.smashingmagazine.com/2012/10/25/why-coding-style-matters/)
 * [isobar 前端代码规范](http://coderlmn.github.io/code-standards/)
 * [书写具备一致风格、通俗易懂 JavaScript 的原则](https://github.com/rwaldron/idiomatic.js/tree/master/translations/zh_CN)
+* [eslint-rules](https://github.com/bahmutov/eslint-rules)
 
