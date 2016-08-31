@@ -1,4 +1,5 @@
-<h1 align="center">做一个体面的前端攻城狮</h1>
+<h1 align="center">做一个体面的前端攻城狮</h1> 已废弃
+部分内容移至 [WEB 前端开发学习笔记](https://github.com/iamjoel/front-end-note)
 <p align="center">
 <a href="https://gitter.im/iamjoel/be-grace-front-end-developer"><img src="https://badges.gitter.im/Join Chat.svg"></a>
 </p>
